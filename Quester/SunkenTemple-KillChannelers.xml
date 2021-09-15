@@ -1,0 +1,1368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EasyQuestProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <QuestsSorted>
+    <QuestsSorted Action="RunCode" NameClass="// Change WRobot settings:&#xD;&#xA;wManager.wManagerSetting.CurrentSetting.CloseIfPlayerTeleported = false;&#xD;&#xA;wManager.wManagerSetting.CurrentSetting.MaxUnitsNear=99;&#xD;&#xA;wManager.wManagerSetting.CurrentSetting.CanAttackUnitsAlreadyInFight = true;&#xD;&#xA;wManager.wManagerSetting.CurrentSetting.AttackElite = true;&#xD;&#xA;wManager.wManagerSetting.CurrentSetting.AttackBeforeBeingAttacked = false;&#xD;&#xA;wManager.wManagerSetting.CurrentSetting.SearchRadius=10;" />
+    <QuestsSorted Action="StepName" NameClass="Start" />
+    <QuestsSorted Action="Pulse" NameClass="S01GotoHukku" />
+  </QuestsSorted>
+  <NpcQuest />
+  <Npc />
+  <EasyQuests>
+    <EasyQuest>
+      <Name>S01Goto Hukku</Name>
+      <QuestId />
+      <QuestType>FollowPath</QuestType>
+      <QuestClass xsi:type="FollowPathEasyQuestClass">
+        <Path>
+          <Vector3 X="-325.1113" Y="99.84927" Z="-131.8487" />
+          <Vector3 X="-331.8246" Y="99.6255" Z="-131.8487" />
+          <Vector3 X="-336.5668" Y="98.37328" Z="-131.8487" />
+          <Vector3 X="-341.1723" Y="95.85689" Z="-131.8487" />
+          <Vector3 X="-345.7978" Y="93.37783" Z="-131.8487" />
+          <Vector3 X="-350.7399" Y="91.63684" Z="-131.8487" />
+          <Vector3 X="-355.897" Y="90.66209" Z="-131.8487" />
+          <Vector3 X="-361.0558" Y="89.70569" Z="-131.8487" />
+          <Vector3 X="-365.8502" Y="87.60504" Z="-131.8487" />
+          <Vector3 X="-370.0551" Y="84.46919" Z="-131.8487" />
+          <Vector3 X="-373.9711" Y="80.97312" Z="-131.8487" />
+          <Vector3 X="-376.7733" Y="76.65486" Z="-131.8487" />
+          <Vector3 X="-374.9511" Y="71.91563" Z="-131.8487" />
+          <Vector3 X="-371.3544" Y="68.09826" Z="-130.2654" />
+          <Vector3 X="-367.545" Y="64.48627" Z="-128.7008" />
+          <Vector3 X="-362.6772" Y="62.9178" Z="-128.7445" />
+          <Vector3 X="-357.4413" Y="63.27089" Z="-128.7393" />
+          <Vector3 X="-353.148" Y="60.7425" Z="-128.7784" />
+          <Vector3 X="-352.358" Y="55.58563" Z="-125.1548" />
+          <Vector3 X="-351.765" Y="50.37167" Z="-121.487" />
+          <Vector3 X="-350.9073" Y="45.19234" Z="-117.8134" />
+          <Vector3 X="-350.2232" Y="39.81861" Z="-114.0239" />
+          <Vector3 X="-349.7334" Y="34.76027" Z="-110.4738" />
+          <Vector3 X="-349.1513" Y="29.54298" Z="-108.9684" />
+          <Vector3 X="-349.1161" Y="24.1536" Z="-108.9669" />
+          <Vector3 X="-351.7206" Y="19.69637" Z="-108.9651" />
+          <Vector3 X="-356.4775" Y="17.73668" Z="-108.9691" />
+          <Vector3 X="-361.2423" Y="19.70262" Z="-108.9662" />
+          <Vector3 X="-364.794" Y="23.53788" Z="-108.9662" />
+          <Vector3 X="-366.3475" Y="28.51292" Z="-105.9188" />
+          <Vector3 X="-366.8531" Y="33.73826" Z="-102.2553" />
+          <Vector3 X="-367.4455" Y="38.95442" Z="-98.58794" />
+          <Vector3 X="-368.1941" Y="44.15075" Z="-94.88879" />
+          <Vector3 X="-368.8752" Y="49.3563" Z="-91.17818" />
+          <Vector3 X="-369.5346" Y="54.56472" Z="-89.13614" />
+          <Vector3 X="-369.8845" Y="59.78562" Z="-89.13614" />
+          <Vector3 X="-367.6419" Y="64.4279" Z="-89.13528" />
+          <Vector3 X="-362.9587" Y="66.3712" Z="-89.1348" />
+          <Vector3 X="-357.9846" Y="64.80371" Z="-89.1348" />
+          <Vector3 X="-354.64" Y="60.86168" Z="-89.13628" />
+          <Vector3 X="-353.1175" Y="55.877" Z="-85.79217" />
+          <Vector3 X="-352.421" Y="50.6734" Z="-82.10101" />
+          <Vector3 X="-351.7306" Y="45.469" Z="-78.41299" />
+          <Vector3 X="-351.17" Y="41.24302" Z="-75.42448" />
+          <Vector3 X="-350.5652" Y="36.68396" Z="-72.20043" />
+          <Vector3 X="-349.8729" Y="31.47981" Z="-69.39228" />
+          <Vector3 X="-349.2127" Y="26.27168" Z="-69.39228" />
+          <Vector3 X="-349.201" Y="21.04458" Z="-69.39228" />
+          <Vector3 X="-350.4868" Y="15.95645" Z="-69.39228" />
+          <Vector3 X="-351.957" Y="10.91827" Z="-69.39228" />
+          <Vector3 X="-354.5889" Y="6.420526" Z="-69.39228" />
+          <Vector3 X="-358.6962" Y="3.842349" Z="-69.39228" />
+          <Vector3 X="-357.6157" Y="7.457946" Z="-69.39228" />
+          <Vector3 X="-357.6965" Y="12.64693" Z="-69.39228" />
+          <Vector3 X="-360.5902" Y="16.98458" Z="-69.39228" />
+          <Vector3 X="-364.2759" Y="20.72331" Z="-69.39228" />
+          <Vector3 X="-367.9675" Y="24.45619" Z="-69.39228" />
+          <Vector3 X="-371.6592" Y="28.18906" Z="-69.39228" />
+          <Vector3 X="-375.5804" Y="31.63494" Z="-69.39228" />
+          <Vector3 X="-382.4295" Y="26.33147" Z="-69.39228" />
+          <Vector3 X="-387.5218" Y="25.41103" Z="-69.39228" />
+          <Vector3 X="-391.9768" Y="28.00224" Z="-69.39228" />
+          <Vector3 X="-395.7417" Y="31.66122" Z="-69.39228" />
+          <Vector3 X="-399.1876" Y="35.79326" Z="-69.39228" />
+          <Vector3 X="-401.4601" Y="40.3504" Z="-68.28652" />
+          <Vector3 X="-403.1555" Y="45.31432" Z="-65.33104" />
+          <Vector3 X="-404.4246" Y="50.56827" Z="-65.91328" />
+          <Vector3 X="-405.2097" Y="55.75857" Z="-67.06776" />
+          <Vector3 X="-405.7783" Y="60.97764" Z="-67.06776" />
+        </Path>
+        <IsCompleteWhenAtLastPath>true</IsCompleteWhenAtLastPath>
+        <ForceToStartFirstPosition>true</ForceToStartFirstPosition>
+        <IsHotSpots>false</IsHotSpots>
+        <IsLoop>false</IsLoop>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>true</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment>Kill Hukku</Comment>
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>60</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>S02GotoLoro</Name>
+      <QuestId />
+      <QuestType>FollowPath</QuestType>
+      <QuestClass xsi:type="FollowPathEasyQuestClass">
+        <Path>
+          <Vector3 X="-404.1284" Y="55.82266" Z="-67.06776" />
+          <Vector3 X="-403.5334" Y="47.4769" Z="-65.24823" />
+          <Vector3 X="-403.0294" Y="42.25592" Z="-67.09305" />
+          <Vector3 X="-400.9606" Y="37.49442" Z="-69.39225" />
+          <Vector3 X="-397.5204" Y="33.53124" Z="-69.39225" />
+          <Vector3 X="-393.7931" Y="29.83537" Z="-69.39225" />
+          <Vector3 X="-389.7488" Y="26.50065" Z="-69.39225" />
+          <Vector3 X="-384.613" Y="25.66985" Z="-69.39225" />
+          <Vector3 X="-380.2928" Y="28.33506" Z="-69.39225" />
+          <Vector3 X="-375.4022" Y="29.66514" Z="-69.39225" />
+          <Vector3 X="-370.9167" Y="26.74275" Z="-69.39225" />
+          <Vector3 X="-367.0914" Y="23.1472" Z="-69.39225" />
+          <Vector3 X="-363.2785" Y="19.53826" Z="-69.39225" />
+          <Vector3 X="-360.3238" Y="15.27389" Z="-69.39225" />
+          <Vector3 X="-359.442" Y="10.11955" Z="-69.39225" />
+          <Vector3 X="-360.5616" Y="5.547449" Z="-69.39225" />
+          <Vector3 X="-365.4499" Y="3.227931" Z="-69.39225" />
+          <Vector3 X="-370.6055" Y="4.074748" Z="-69.39225" />
+          <Vector3 X="-375.7073" Y="5.306057" Z="-65.87798" />
+          <Vector3 X="-380.8895" Y="6.144739" Z="-62.31461" />
+          <Vector3 X="-385.7464" Y="6.955909" Z="-58.98853" />
+          <Vector3 X="-390.9131" Y="7.887211" Z="-55.44207" />
+          <Vector3 X="-396.3574" Y="9.081788" Z="-53.82732" />
+          <Vector3 X="-401.0768" Y="11.27125" Z="-53.91587" />
+          <Vector3 X="-405.3041" Y="13.63673" Z="-53.94629" />
+          <Vector3 X="-413.4356" Y="12.26954" Z="-53.94629" />
+          <Vector3 X="-418.385" Y="10.51859" Z="-53.94629" />
+          <Vector3 X="-423.0275" Y="8.876211" Z="-53.94629" />
+          <Vector3 X="-428.8981" Y="6.801403" Z="-53.94629" />
+          <Vector3 X="-433.9023" Y="5.217075" Z="-53.94629" />
+          <Vector3 X="-438.9574" Y="3.799584" Z="-53.94629" />
+          <Vector3 X="-444.0253" Y="2.428972" Z="-53.94629" />
+          <Vector3 X="-449.0968" Y="1.071746" Z="-53.94629" />
+          <Vector3 X="-454.1683" Y="-0.28548" Z="-53.94629" />
+          <Vector3 X="-459.2582" Y="-1.569113" Z="-53.94629" />
+          <Vector3 X="-464.4334" Y="-2.441669" Z="-53.94629" />
+          <Vector3 X="-469.6759" Y="-2.606225" Z="-53.94629" />
+          <Vector3 X="-474.893" Y="-2.038757" Z="-53.94629" />
+          <Vector3 X="-480.0498" Y="-1.070575" Z="-53.94629" />
+          <Vector3 X="-485.1123" Y="0.319405" Z="-53.94629" />
+          <Vector3 X="-490.1734" Y="1.715094" Z="-53.94629" />
+          <Vector3 X="-495.2378" Y="3.098659" Z="-53.94629" />
+          <Vector3 X="-500.3022" Y="4.482224" Z="-53.94629" />
+          <Vector3 X="-505.3666" Y="5.865789" Z="-53.94629" />
+          <Vector3 X="-510.4011" Y="7.348239" Z="-53.94629" />
+          <Vector3 X="-515.1779" Y="9.513603" Z="-53.94629" />
+          <Vector3 X="-519.4799" Y="12.49169" Z="-53.94629" />
+          <Vector3 X="-522.9657" Y="16.40086" Z="-53.94629" />
+          <Vector3 X="-521.2111" Y="21.57383" Z="-53.94629" />
+          <Vector3 X="-517.4149" Y="25.19798" Z="-53.94629" />
+          <Vector3 X="-512.9361" Y="27.59027" Z="-53.95699" />
+          <Vector3 X="-507.8537" Y="26.36583" Z="-54.08239" />
+          <Vector3 X="-503.3203" Y="23.39936" Z="-56.55483" />
+          <Vector3 X="-498.9347" Y="20.83867" Z="-58.87603" />
+          <Vector3 X="-494.2202" Y="18.52875" Z="-61.26973" />
+          <Vector3 X="-489.4939" Y="16.2431" Z="-63.66273" />
+          <Vector3 X="-484.6104" Y="14.34042" Z="-65.345" />
+          <Vector3 X="-480.725" Y="14.34833" Z="-65.34327" />
+          <Vector3 X="-476.798" Y="16.74189" Z="-65.29595" />
+          <Vector3 X="-472.4389" Y="19.66511" Z="-66.79079" />
+          <Vector3 X="-468.1902" Y="22.74914" Z="-66.79079" />
+        </Path>
+        <IsCompleteWhenAtLastPath>true</IsCompleteWhenAtLastPath>
+        <ForceToStartFirstPosition>true</ForceToStartFirstPosition>
+        <IsHotSpots>false</IsHotSpots>
+        <IsLoop>false</IsLoop>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>true</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment>Kill Loro</Comment>
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>60</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>S03GotoGasher</Name>
+      <QuestId />
+      <QuestType>FollowPath</QuestType>
+      <QuestClass xsi:type="FollowPathEasyQuestClass">
+        <Path>
+          <Vector3 X="-472.1608" Y="20.00816" Z="-66.79079" />
+          <Vector3 X="-476.2691" Y="17.29288" Z="-65.22786" />
+          <Vector3 X="-481.1201" Y="15.45304" Z="-65.34299" />
+          <Vector3 X="-485.9726" Y="16.07118" Z="-65.09509" />
+          <Vector3 X="-490.7531" Y="18.19204" Z="-62.71832" />
+          <Vector3 X="-495.277" Y="20.85556" Z="-60.31881" />
+          <Vector3 X="-499.8455" Y="23.44213" Z="-57.91943" />
+          <Vector3 X="-504.4354" Y="25.99079" Z="-55.52029" />
+          <Vector3 X="-509.2169" Y="28.12658" Z="-53.90123" />
+          <Vector3 X="-514.2922" Y="27.58547" Z="-53.95447" />
+          <Vector3 X="-518.8541" Y="25.00199" Z="-53.94675" />
+          <Vector3 X="-523.3987" Y="22.39094" Z="-53.94675" />
+          <Vector3 X="-528.376" Y="22.90843" Z="-53.94675" />
+          <Vector3 X="-531.142" Y="25.69897" Z="-53.94675" />
+          <Vector3 X="-536.6755" Y="31.06345" Z="-53.94675" />
+          <Vector3 X="-540.4512" Y="34.7112" Z="-53.94675" />
+          <Vector3 X="-544.1735" Y="38.41319" Z="-53.94675" />
+          <Vector3 X="-547.6522" Y="42.34352" Z="-53.94675" />
+          <Vector3 X="-550.8067" Y="46.53733" Z="-53.94675" />
+          <Vector3 X="-553.2801" Y="51.15893" Z="-53.94675" />
+          <Vector3 X="-555.0712" Y="56.09188" Z="-53.94675" />
+          <Vector3 X="-556.4963" Y="61.1428" Z="-53.94675" />
+          <Vector3 X="-557.7898" Y="66.23096" Z="-53.94675" />
+          <Vector3 X="-559.0833" Y="71.31913" Z="-53.94675" />
+          <Vector3 X="-560.3961" Y="76.40234" Z="-53.94675" />
+          <Vector3 X="-561.5467" Y="80.85509" Z="-53.94675" />
+          <Vector3 X="-569.081" Y="79.23377" Z="-53.94675" />
+          <Vector3 X="-574.0803" Y="77.65852" Z="-53.94675" />
+          <Vector3 X="-578.6341" Y="75.05158" Z="-54.34517" />
+          <Vector3 X="-582.5248" Y="71.80312" Z="-57.71615" />
+          <Vector3 X="-586.0732" Y="67.71025" Z="-61.36236" />
+          <Vector3 X="-589.4689" Y="63.70622" Z="-64.89151" />
+          <Vector3 X="-592.8644" Y="59.70219" Z="-68.4185" />
+          <Vector3 X="-596.2655" Y="55.70275" Z="-69.35281" />
+          <Vector3 X="-597.8849" Y="50.98245" Z="-69.35281" />
+          <Vector3 X="-595.807" Y="46.19569" Z="-69.35281" />
+          <Vector3 X="-592.3491" Y="42.43102" Z="-69.35281" />
+          <Vector3 X="-587.1861" Y="42.49523" Z="-69.35281" />
+          <Vector3 X="-582.1135" Y="43.84748" Z="-69.35281" />
+          <Vector3 X="-577.049" Y="45.23063" Z="-69.35281" />
+          <Vector3 X="-572.0837" Y="46.91615" Z="-69.35281" />
+          <Vector3 X="-569.1854" Y="50.98029" Z="-69.35281" />
+          <Vector3 X="-569.3774" Y="56.22044" Z="-69.35281" />
+          <Vector3 X="-567.4996" Y="60.96525" Z="-69.35281" />
+          <Vector3 X="-562.9212" Y="63.44905" Z="-69.35281" />
+          <Vector3 X="-557.8684" Y="64.86861" Z="-69.35281" />
+          <Vector3 X="-552.7297" Y="65.93045" Z="-69.35281" />
+          <Vector3 X="-547.4909" Y="66.18284" Z="-68.54163" />
+          <Vector3 X="-542.2732" Y="65.66458" Z="-65.72089" />
+          <Vector3 X="-537.3954" Y="63.76488" Z="-65.66101" />
+          <Vector3 X="-532.6752" Y="61.46715" Z="-66.71877" />
+          <Vector3 X="-527.9258" Y="59.22975" Z="-66.71877" />
+        </Path>
+        <IsCompleteWhenAtLastPath>true</IsCompleteWhenAtLastPath>
+        <ForceToStartFirstPosition>true</ForceToStartFirstPosition>
+        <IsHotSpots>false</IsHotSpots>
+        <IsLoop>false</IsLoop>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>true</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>S04GotoZolo</Name>
+      <QuestId />
+      <QuestType>FollowPath</QuestType>
+      <QuestClass xsi:type="FollowPathEasyQuestClass">
+        <Path>
+          <Vector3 X="-532.595" Y="61.45008" Z="-66.71877" />
+          <Vector3 X="-537.2177" Y="63.14747" Z="-65.81184" />
+          <Vector3 X="-542.1552" Y="64.93105" Z="-65.4493" />
+          <Vector3 X="-547.575" Y="66.20473" Z="-68.59133" />
+          <Vector3 X="-552.4888" Y="66.27316" Z="-69.35268" />
+          <Vector3 X="-557.6457" Y="65.31792" Z="-69.35268" />
+          <Vector3 X="-562.7189" Y="63.9677" Z="-69.35268" />
+          <Vector3 X="-567.7266" Y="62.41132" Z="-69.35268" />
+          <Vector3 X="-569.9495" Y="59.01777" Z="-69.35268" />
+          <Vector3 X="-569.0389" Y="53.85471" Z="-69.35268" />
+          <Vector3 X="-569.6197" Y="48.78185" Z="-69.35268" />
+          <Vector3 X="-573.972" Y="46.06888" Z="-69.35268" />
+          <Vector3 X="-579.1024" Y="44.9568" Z="-69.35268" />
+          <Vector3 X="-584.1956" Y="43.6834" Z="-69.35268" />
+          <Vector3 X="-589.317" Y="42.53877" Z="-69.35268" />
+          <Vector3 X="-593.2258" Y="42.72471" Z="-69.35268" />
+          <Vector3 X="-594.9075" Y="49.04097" Z="-69.35268" />
+          <Vector3 X="-594.7856" Y="54.26582" Z="-69.35268" />
+          <Vector3 X="-593.0569" Y="59.19485" Z="-68.7595" />
+          <Vector3 X="-590.096" Y="63.51947" Z="-65.26466" />
+          <Vector3 X="-586.4823" Y="67.32635" Z="-61.73779" />
+          <Vector3 X="-582.8774" Y="71.14304" Z="-58.20613" />
+          <Vector3 X="-579.1306" Y="74.81382" Z="-54.68531" />
+          <Vector3 X="-574.6122" Y="77.43776" Z="-53.94559" />
+          <Vector3 X="-569.5828" Y="78.94334" Z="-53.94559" />
+          <Vector3 X="-564.8715" Y="80.34002" Z="-53.94559" />
+          <Vector3 X="-564.2292" Y="87.52212" Z="-53.94559" />
+          <Vector3 X="-564.0569" Y="92.92687" Z="-53.94559" />
+          <Vector3 X="-563.8898" Y="98.17421" Z="-53.94559" />
+          <Vector3 X="-563.4214" Y="103.3982" Z="-53.94559" />
+          <Vector3 X="-562.2561" Y="108.5158" Z="-53.94559" />
+          <Vector3 X="-560.9683" Y="113.6054" Z="-53.94559" />
+          <Vector3 X="-559.6804" Y="118.695" Z="-53.94559" />
+          <Vector3 X="-558.3925" Y="123.7846" Z="-53.94559" />
+          <Vector3 X="-557.0565" Y="128.8615" Z="-53.94559" />
+          <Vector3 X="-555.6689" Y="133.9248" Z="-53.94559" />
+          <Vector3 X="-554.2095" Y="138.9671" Z="-53.94559" />
+          <Vector3 X="-551.8665" Y="143.6439" Z="-53.94559" />
+          <Vector3 X="-548.4702" Y="147.6416" Z="-53.96407" />
+          <Vector3 X="-544.7386" Y="151.3344" Z="-54.00698" />
+          <Vector3 X="-540.9957" Y="155.0158" Z="-54.04512" />
+          <Vector3 X="-537.2527" Y="158.6972" Z="-54.08052" />
+          <Vector3 X="-533.5098" Y="162.3786" Z="-54.09545" />
+          <Vector3 X="-529.7945" Y="166.0879" Z="-54.09545" />
+          <Vector3 X="-528.023" Y="170.1723" Z="-54.09545" />
+          <Vector3 X="-531.9529" Y="176.3648" Z="-54.08646" />
+          <Vector3 X="-535.8494" Y="179.8821" Z="-53.99612" />
+          <Vector3 X="-540.2514" Y="182.6909" Z="-54.24682" />
+          <Vector3 X="-545.251" Y="184.2496" Z="-57.88881" />
+          <Vector3 X="-550.4586" Y="184.9137" Z="-61.55529" />
+          <Vector3 X="-555.6544" Y="185.6635" Z="-65.22489" />
+          <Vector3 X="-560.8306" Y="186.5371" Z="-68.89754" />
+          <Vector3 X="-565.9707" Y="187.3412" Z="-69.40126" />
+          <Vector3 X="-570.2705" Y="184.5993" Z="-69.40126" />
+          <Vector3 X="-573.4291" Y="180.4073" Z="-69.40126" />
+          <Vector3 X="-573.4621" Y="175.4008" Z="-69.40126" />
+          <Vector3 X="-569.7785" Y="171.6734" Z="-69.40126" />
+          <Vector3 X="-565.9742" Y="168.0553" Z="-69.40126" />
+          <Vector3 X="-562.1406" Y="164.4689" Z="-69.40126" />
+          <Vector3 X="-557.4536" Y="162.7368" Z="-69.40126" />
+          <Vector3 X="-552.7201" Y="164.9357" Z="-69.40126" />
+          <Vector3 X="-547.5796" Y="165.9813" Z="-69.40126" />
+          <Vector3 X="-542.9379" Y="163.9332" Z="-69.40126" />
+          <Vector3 X="-539.4287" Y="160.0283" Z="-69.40126" />
+          <Vector3 X="-536.011" Y="156.0436" Z="-69.40126" />
+          <Vector3 X="-532.823" Y="151.8805" Z="-69.39021" />
+          <Vector3 X="-530.9489" Y="146.9984" Z="-66.55947" />
+          <Vector3 X="-529.8859" Y="141.8589" Z="-65.3512" />
+          <Vector3 X="-529.1934" Y="136.6551" Z="-66.75323" />
+          <Vector3 X="-528.7128" Y="131.4272" Z="-66.75323" />
+        </Path>
+        <IsCompleteWhenAtLastPath>true</IsCompleteWhenAtLastPath>
+        <ForceToStartFirstPosition>true</ForceToStartFirstPosition>
+        <IsHotSpots>false</IsHotSpots>
+        <IsLoop>false</IsLoop>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>true</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>S05GotoZullor</Name>
+      <QuestId />
+      <QuestType>FollowPath</QuestType>
+      <QuestClass xsi:type="FollowPathEasyQuestClass">
+        <Path>
+          <Vector3 X="-528.5247" Y="134.6879" Z="-66.75323" />
+          <Vector3 X="-529.6251" Y="140.9856" Z="-65.6048" />
+          <Vector3 X="-530.8601" Y="146.0863" Z="-66.04699" />
+          <Vector3 X="-532.4395" Y="151.091" Z="-68.92879" />
+          <Vector3 X="-535.2288" Y="155.5159" Z="-69.40134" />
+          <Vector3 X="-538.6675" Y="159.4782" Z="-69.40134" />
+          <Vector3 X="-542.4962" Y="163.0699" Z="-69.40134" />
+          <Vector3 X="-546.7897" Y="166.0118" Z="-69.40134" />
+          <Vector3 X="-551.8036" Y="165.2257" Z="-69.40134" />
+          <Vector3 X="-555.9234" Y="161.9821" Z="-69.40134" />
+          <Vector3 X="-560.9773" Y="161.9054" Z="-69.40134" />
+          <Vector3 X="-564.6657" Y="165.5917" Z="-69.40134" />
+          <Vector3 X="-568.2404" Y="169.4364" Z="-69.40134" />
+          <Vector3 X="-571.7659" Y="173.3236" Z="-69.40134" />
+          <Vector3 X="-573.3841" Y="178.1902" Z="-69.40134" />
+          <Vector3 X="-571.6735" Y="183.1077" Z="-69.40134" />
+          <Vector3 X="-567.6717" Y="186.3663" Z="-69.40134" />
+          <Vector3 X="-562.4837" Y="186.3511" Z="-69.40134" />
+          <Vector3 X="-557.3022" Y="185.5084" Z="-66.33931" />
+          <Vector3 X="-552.1208" Y="184.6653" Z="-62.66722" />
+          <Vector3 X="-546.9595" Y="183.7046" Z="-58.99335" />
+          <Vector3 X="-541.8255" Y="182.6133" Z="-55.32092" />
+          <Vector3 X="-537.0904" Y="180.4253" Z="-53.97478" />
+          <Vector3 X="-533.1533" Y="176.9605" Z="-54.06431" />
+          <Vector3 X="-529.3419" Y="173.3499" Z="-54.09544" />
+          <Vector3 X="-524.5163" Y="172.3585" Z="-54.09544" />
+          <Vector3 X="-520.0306" Y="175.0755" Z="-54.09544" />
+          <Vector3 X="-515.6077" Y="177.904" Z="-54.06207" />
+          <Vector3 X="-510.9722" Y="180.7044" Z="-53.94635" />
+          <Vector3 X="-506.3336" Y="182.7745" Z="-53.94635" />
+          <Vector3 X="-501.1754" Y="184.4229" Z="-53.94635" />
+          <Vector3 X="-496.1163" Y="185.8258" Z="-53.94635" />
+          <Vector3 X="-491.0572" Y="187.2288" Z="-53.94635" />
+          <Vector3 X="-485.9981" Y="188.6317" Z="-53.94635" />
+          <Vector3 X="-480.9391" Y="190.0347" Z="-53.94635" />
+          <Vector3 X="-475.88" Y="191.4376" Z="-53.94635" />
+          <Vector3 X="-470.7137" Y="192.3136" Z="-53.94635" />
+          <Vector3 X="-465.4763" Y="192.5247" Z="-53.94635" />
+          <Vector3 X="-460.2726" Y="191.8667" Z="-53.94635" />
+          <Vector3 X="-455.155" Y="190.6963" Z="-53.94635" />
+          <Vector3 X="-450.0482" Y="189.4785" Z="-53.94635" />
+          <Vector3 X="-444.9743" Y="188.1308" Z="-53.94635" />
+          <Vector3 X="-439.9056" Y="186.7631" Z="-53.94635" />
+          <Vector3 X="-434.8369" Y="185.3954" Z="-53.94635" />
+          <Vector3 X="-429.7681" Y="184.0277" Z="-53.94635" />
+          <Vector3 X="-424.6994" Y="182.66" Z="-53.94635" />
+          <Vector3 X="-419.7534" Y="180.9154" Z="-53.94635" />
+          <Vector3 X="-415.3355" Y="178.1052" Z="-53.94635" />
+          <Vector3 X="-411.4945" Y="174.5332" Z="-53.94635" />
+          <Vector3 X="-411.7364" Y="169.1452" Z="-53.94635" />
+          <Vector3 X="-415.2564" Y="165.2501" Z="-53.94635" />
+          <Vector3 X="-419.1698" Y="161.8141" Z="-53.96382" />
+          <Vector3 X="-424.2799" Y="161.8082" Z="-53.91012" />
+          <Vector3 X="-428.897" Y="164.2463" Z="-55.44075" />
+          <Vector3 X="-433.2953" Y="167.1089" Z="-57.83679" />
+          <Vector3 X="-437.7812" Y="169.8364" Z="-60.23659" />
+          <Vector3 X="-442.2671" Y="172.5639" Z="-62.63627" />
+          <Vector3 X="-446.8705" Y="175.0776" Z="-65.03337" />
+          <Vector3 X="-451.8932" Y="176.5408" Z="-65.35017" />
+          <Vector3 X="-459.1222" Y="173.0891" Z="-65.65422" />
+          <Vector3 X="-463.0566" Y="169.6133" Z="-66.68887" />
+          <Vector3 X="-466.9757" Y="166.12" Z="-66.70036" />
+        </Path>
+        <IsCompleteWhenAtLastPath>true</IsCompleteWhenAtLastPath>
+        <ForceToStartFirstPosition>true</ForceToStartFirstPosition>
+        <IsHotSpots>false</IsHotSpots>
+        <IsLoop>false</IsLoop>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>true</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>S06GotoMijan</Name>
+      <QuestId />
+      <QuestType>FollowPath</QuestType>
+      <QuestClass xsi:type="FollowPathEasyQuestClass">
+        <Path>
+          <Vector3 X="-462.8562" Y="169.3745" Z="-66.69112" />
+          <Vector3 X="-458.9952" Y="171.8537" Z="-65.80078" />
+          <Vector3 X="-454.1678" Y="173.8797" Z="-65.35014" />
+          <Vector3 X="-448.9849" Y="174.1212" Z="-65.35014" />
+          <Vector3 X="-444.0979" Y="172.2768" Z="-63.29485" />
+          <Vector3 X="-439.5567" Y="169.6423" Z="-60.89476" />
+          <Vector3 X="-435.0182" Y="167.0034" Z="-58.49455" />
+          <Vector3 X="-430.4758" Y="164.3712" Z="-56.09418" />
+          <Vector3 X="-425.8706" Y="161.8545" Z="-53.88382" />
+          <Vector3 X="-420.7161" Y="161.2065" Z="-53.96709" />
+          <Vector3 X="-415.8375" Y="162.8572" Z="-53.9463" />
+          <Vector3 X="-412.0838" Y="166.5274" Z="-53.9463" />
+          <Vector3 X="-406.662" Y="166.808" Z="-53.9463" />
+          <Vector3 X="-402.1236" Y="163.851" Z="-53.9463" />
+          <Vector3 X="-397.9552" Y="160.6598" Z="-53.9463" />
+          <Vector3 X="-393.9336" Y="157.2858" Z="-53.9463" />
+          <Vector3 X="-390.2252" Y="153.5707" Z="-53.9463" />
+          <Vector3 X="-386.6931" Y="149.6868" Z="-53.9463" />
+          <Vector3 X="-383.4599" Y="145.5568" Z="-53.9463" />
+          <Vector3 X="-380.9506" Y="140.9529" Z="-53.9463" />
+          <Vector3 X="-378.9772" Y="136.0889" Z="-53.9463" />
+          <Vector3 X="-377.2259" Y="131.1396" Z="-53.9463" />
+          <Vector3 X="-375.8237" Y="126.0827" Z="-53.9463" />
+          <Vector3 X="-374.5003" Y="121.0022" Z="-53.9463" />
+          <Vector3 X="-373.177" Y="115.9217" Z="-53.9463" />
+          <Vector3 X="-371.8536" Y="110.8412" Z="-53.9463" />
+          <Vector3 X="-367.5521" Y="111.2084" Z="-53.9463" />
+          <Vector3 X="-362.4901" Y="112.6001" Z="-53.97132" />
+          <Vector3 X="-357.4255" Y="113.9826" Z="-54.06107" />
+          <Vector3 X="-352.7376" Y="116.2937" Z="-55.55429" />
+          <Vector3 X="-348.978" Y="119.9407" Z="-59.06701" />
+          <Vector3 X="-345.6344" Y="123.9865" Z="-62.60949" />
+          <Vector3 X="-342.3657" Y="128.0947" Z="-66.14902" />
+          <Vector3 X="-339.1769" Y="132.2641" Z="-69.48785" />
+          <Vector3 X="-337.4265" Y="137.0685" Z="-69.48785" />
+          <Vector3 X="-339.4222" Y="142.2042" Z="-69.48785" />
+          <Vector3 X="-342.3199" Y="146.1347" Z="-69.48785" />
+          <Vector3 X="-347.3347" Y="147.1181" Z="-69.48785" />
+          <Vector3 X="-352.4491" Y="145.9767" Z="-69.48785" />
+          <Vector3 X="-357.5251" Y="144.6372" Z="-69.48785" />
+          <Vector3 X="-362.3477" Y="142.6051" Z="-69.48785" />
+          <Vector3 X="-364.9551" Y="138.2231" Z="-69.48785" />
+          <Vector3 X="-364.3664" Y="133.0131" Z="-69.48785" />
+          <Vector3 X="-365.9682" Y="128.1585" Z="-69.48785" />
+          <Vector3 X="-369.8199" Y="124.6199" Z="-69.48785" />
+          <Vector3 X="-374.555" Y="122.3853" Z="-69.48785" />
+          <Vector3 X="-379.67" Y="121.2541" Z="-69.48785" />
+          <Vector3 X="-384.8304" Y="121.9089" Z="-69.48785" />
+          <Vector3 X="-389.8101" Y="123.5717" Z="-66.87451" />
+          <Vector3 X="-394.724" Y="125.415" Z="-65.50997" />
+          <Vector3 X="-399.6619" Y="127.6182" Z="-66.91377" />
+          <Vector3 X="-404.2556" Y="129.8161" Z="-66.91377" />
+        </Path>
+        <IsCompleteWhenAtLastPath>true</IsCompleteWhenAtLastPath>
+        <ForceToStartFirstPosition>true</ForceToStartFirstPosition>
+        <IsHotSpots>false</IsHotSpots>
+        <IsLoop>false</IsLoop>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>true</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>S07GotoLobby</Name>
+      <QuestId />
+      <QuestType>FollowPath</QuestType>
+      <QuestClass xsi:type="FollowPathEasyQuestClass">
+        <Path>
+          <Vector3 X="-405.5852" Y="130.3644" Z="-66.9138" />
+          <Vector3 X="-399.6534" Y="128.4418" Z="-66.9138" />
+          <Vector3 X="-394.7609" Y="126.5376" Z="-65.54883" />
+          <Vector3 X="-389.8684" Y="124.6334" Z="-66.59116" />
+          <Vector3 X="-384.8635" Y="123.0913" Z="-69.20644" />
+          <Vector3 X="-379.6363" Y="123.2917" Z="-69.48785" />
+          <Vector3 X="-374.5111" Y="124.4187" Z="-69.48785" />
+          <Vector3 X="-369.6029" Y="126.2144" Z="-69.48785" />
+          <Vector3 X="-365.7045" Y="129.6562" Z="-69.48785" />
+          <Vector3 X="-364.3052" Y="134.6843" Z="-69.48785" />
+          <Vector3 X="-362.9724" Y="139.7272" Z="-69.48785" />
+          <Vector3 X="-359.4564" Y="143.5675" Z="-69.48785" />
+          <Vector3 X="-354.6451" Y="145.6183" Z="-69.48785" />
+          <Vector3 X="-349.5784" Y="146.9911" Z="-69.48785" />
+          <Vector3 X="-346.0391" Y="147.6539" Z="-69.48785" />
+          <Vector3 X="-342.7943" Y="150.8677" Z="-69.48785" />
+          <Vector3 X="-342.986" Y="156.0831" Z="-69.48785" />
+          <Vector3 X="-345.4048" Y="160.6828" Z="-69.48785" />
+          <Vector3 X="-349.5975" Y="163.7871" Z="-69.48785" />
+          <Vector3 X="-354.3921" Y="165.9214" Z="-70.33997" />
+          <Vector3 X="-359.3326" Y="167.6971" Z="-74.13451" />
+          <Vector3 X="-364.2791" Y="169.4564" Z="-77.92872" />
+          <Vector3 X="-369.2255" Y="171.2158" Z="-81.72518" />
+          <Vector3 X="-374.1719" Y="172.9751" Z="-85.53551" />
+          <Vector3 X="-379.1239" Y="174.7181" Z="-89.23082" />
+          <Vector3 X="-384.2799" Y="174.6623" Z="-89.23072" />
+          <Vector3 X="-387.2535" Y="170.4497" Z="-89.23222" />
+          <Vector3 X="-387.1107" Y="165.2922" Z="-89.2337" />
+          <Vector3 X="-384.2285" Y="160.9853" Z="-89.23527" />
+          <Vector3 X="-380.3752" Y="157.4291" Z="-89.22632" />
+          <Vector3 X="-375.7403" Y="154.9902" Z="-92.78982" />
+          <Vector3 X="-370.8035" Y="153.2041" Z="-96.45799" />
+          <Vector3 X="-365.8647" Y="151.4236" Z="-100.1306" />
+          <Vector3 X="-360.9749" Y="149.5137" Z="-103.8397" />
+          <Vector3 X="-356.1376" Y="147.4753" Z="-107.5455" />
+          <Vector3 X="-351.0671" Y="146.3423" Z="-109.0621" />
+          <Vector3 X="-347.6005" Y="149.8911" Z="-109.062" />
+          <Vector3 X="-346.6009" Y="154.9907" Z="-109.0698" />
+          <Vector3 X="-348.6462" Y="159.7582" Z="-109.0639" />
+          <Vector3 X="-353.7446" Y="163.8872" Z="-109.0795" />
+          <Vector3 X="-358.3736" Y="166.3612" Z="-112.7226" />
+          <Vector3 X="-363.0533" Y="168.7398" Z="-116.3749" />
+          <Vector3 X="-367.883" Y="170.7916" Z="-120.0432" />
+          <Vector3 X="-372.7994" Y="172.6333" Z="-123.7166" />
+          <Vector3 X="-377.7445" Y="174.396" Z="-127.3891" />
+          <Vector3 X="-382.9363" Y="175.9164" Z="-128.8969" />
+          <Vector3 X="-386.3444" Y="171.2094" Z="-128.8979" />
+          <Vector3 X="-387.2458" Y="165.867" Z="-128.8993" />
+          <Vector3 X="-388.2579" Y="160.7192" Z="-128.8972" />
+          <Vector3 X="-390.1021" Y="156.1675" Z="-130.0828" />
+          <Vector3 X="-393.6281" Y="151.8611" Z="-131.8551" />
+          <Vector3 X="-395.9695" Y="148.9122" Z="-131.8551" />
+          <Vector3 X="-393.7788" Y="144.5134" Z="-131.8551" />
+          <Vector3 X="-389.7091" Y="141.2328" Z="-131.8551" />
+          <Vector3 X="-384.9257" Y="138.3866" Z="-131.8551" />
+          <Vector3 X="-379.885" Y="136.9452" Z="-131.8551" />
+          <Vector3 X="-374.8011" Y="135.6407" Z="-131.8565" />
+          <Vector3 X="-370.2207" Y="133.1376" Z="-131.8581" />
+          <Vector3 X="-367.5884" Y="128.6592" Z="-131.8581" />
+          <Vector3 X="-365.6969" Y="122.7187" Z="-131.8581" />
+          <Vector3 X="-364.0616" Y="117.7397" Z="-131.8581" />
+          <Vector3 X="-360.1896" Y="113.8414" Z="-131.8487" />
+          <Vector3 X="-355.5797" Y="112.1443" Z="-131.8487" />
+          <Vector3 X="-350.4025" Y="111.2804" Z="-131.8487" />
+          <Vector3 X="-345.3712" Y="109.7968" Z="-131.8487" />
+          <Vector3 X="-340.5318" Y="107.77" Z="-131.8487" />
+          <Vector3 X="-336.0751" Y="105.0312" Z="-131.8487" />
+          <Vector3 X="-332.4592" Y="102.2064" Z="-131.8487" />
+        </Path>
+        <IsCompleteWhenAtLastPath>true</IsCompleteWhenAtLastPath>
+        <ForceToStartFirstPosition>true</ForceToStartFirstPosition>
+        <IsHotSpots>false</IsHotSpots>
+        <IsLoop>false</IsLoop>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>true</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>S08GotoDragons</Name>
+      <QuestId />
+      <QuestType>FollowPath</QuestType>
+      <QuestClass xsi:type="FollowPathEasyQuestClass">
+        <Path>
+          <Vector3 X="-332.4592" Y="102.2064" Z="-131.8487" />
+          <Vector3 X="-332.4441" Y="94.16338" Z="-131.8487" />
+          <Vector3 X="-332.4342" Y="88.91339" Z="-131.8487" />
+          <Vector3 X="-332.4243" Y="83.6634" Z="-131.8487" />
+          <Vector3 X="-332.4148" Y="78.58141" Z="-131.8487" />
+          <Vector3 X="-332.4046" Y="73.16342" Z="-131.8583" />
+          <Vector3 X="-332.3947" Y="67.91342" Z="-131.8583" />
+          <Vector3 X="-332.3849" Y="62.66344" Z="-131.8583" />
+          <Vector3 X="-332.375" Y="57.41344" Z="-131.8583" />
+          <Vector3 X="-332.3651" Y="52.16346" Z="-131.5947" />
+          <Vector3 X="-332.3552" Y="46.91346" Z="-130.5952" />
+          <Vector3 X="-332.1166" Y="41.67629" Z="-130.4948" />
+          <Vector3 X="-330.4108" Y="36.73444" Z="-129.375" />
+          <Vector3 X="-326.8551" Y="32.9605" Z="-128.1432" />
+          <Vector3 X="-322.253" Y="30.44099" Z="-126.8921" />
+          <Vector3 X="-317.2151" Y="29.02753" Z="-125.5725" />
+          <Vector3 X="-312.0051" Y="28.45295" Z="-124.3752" />
+          <Vector3 X="-306.8503" Y="29.32633" Z="-123.3535" />
+          <Vector3 X="-302.1963" Y="31.73076" Z="-122.0104" />
+          <Vector3 X="-298.4563" Y="35.38241" Z="-120.6496" />
+          <Vector3 X="-295.9015" Y="39.9523" Z="-119.7059" />
+          <Vector3 X="-294.713" Y="45.03368" Z="-118.3692" />
+          <Vector3 X="-295.2981" Y="50.24477" Z="-117.1197" />
+          <Vector3 X="-296.8969" Y="55.39632" Z="-116.0053" />
+          <Vector3 X="-299.5222" Y="59.35833" Z="-114.8154" />
+          <Vector3 X="-303.5495" Y="62.68974" Z="-113.4794" />
+          <Vector3 X="-308.8254" Y="64.87579" Z="-112.3954" />
+          <Vector3 X="-313.5546" Y="65.36012" Z="-111.0846" />
+          <Vector3 X="-318.7337" Y="64.58176" Z="-109.798" />
+          <Vector3 X="-323.55" Y="62.54768" Z="-108.6282" />
+          <Vector3 X="-327.5829" Y="58.50527" Z="-107.1009" />
+          <Vector3 X="-330.3633" Y="54.08962" Z="-106.0527" />
+          <Vector3 X="-331.6333" Y="49.50185" Z="-104.8198" />
+          <Vector3 X="-331.6389" Y="43.79186" Z="-103.3196" />
+          <Vector3 X="-330.0424" Y="39.16408" Z="-102.3887" />
+          <Vector3 X="-327.2096" Y="34.75213" Z="-101.0071" />
+          <Vector3 X="-323.1489" Y="30.96941" Z="-99.69756" />
+          <Vector3 X="-318.404" Y="28.79492" Z="-98.47646" />
+          <Vector3 X="-313.5088" Y="28.37608" Z="-97.36035" />
+          <Vector3 X="-308.3349" Y="29.13464" Z="-96.03086" />
+          <Vector3 X="-303.2539" Y="31.39849" Z="-94.95913" />
+          <Vector3 X="-300.0441" Y="34.66426" Z="-93.68865" />
+          <Vector3 X="-296.9258" Y="38.475" Z="-92.59043" />
+          <Vector3 X="-294.3054" Y="43.00911" Z="-91.3107" />
+          <Vector3 X="-293.8986" Y="48.84804" Z="-90.80915" />
+          <Vector3 X="-293.8595" Y="54.0978" Z="-91.19325" />
+          <Vector3 X="-293.7971" Y="59.34739" Z="-91.4671" />
+          <Vector3 X="-293.7672" Y="64.5973" Z="-91.4671" />
+          <Vector3 X="-293.8627" Y="69.84626" Z="-91.4671" />
+          <Vector3 X="-294.3197" Y="75.07531" Z="-91.4671" />
+          <Vector3 X="-294.6743" Y="78.99661" Z="-91.4671" />
+        </Path>
+        <IsCompleteWhenAtLastPath>true</IsCompleteWhenAtLastPath>
+        <ForceToStartFirstPosition>true</ForceToStartFirstPosition>
+        <IsHotSpots>false</IsHotSpots>
+        <IsLoop>false</IsLoop>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>true</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>S09Dragons</Name>
+      <QuestId />
+      <QuestType>FollowPath</QuestType>
+      <QuestClass xsi:type="FollowPathEasyQuestClass">
+        <Path>
+          <Vector3 X="-294.6941" Y="80.14094" Z="-91.4671" />
+          <Vector3 X="-294.9952" Y="87.19051" Z="-91.4671" />
+          <Vector3 X="-295.1745" Y="92.11169" Z="-91.4671" />
+          <Vector3 X="-295.2926" Y="95.87934" Z="-91.4671" />
+          <Vector3 X="-300.863" Y="96.01793" Z="-91.4671" />
+          <Vector3 X="-306.1093" Y="95.84001" Z="-91.46851" />
+          <Vector3 X="-311.3586" Y="95.75806" Z="-91.46996" />
+          <Vector3 X="-316.9334" Y="95.67102" Z="-91.34354" />
+          <Vector3 X="-321.8573" Y="95.59415" Z="-91.19729" />
+          <Vector3 X="-327.1067" Y="95.5122" Z="-91.04137" />
+          <Vector3 X="-332.356" Y="95.43024" Z="-90.92879" />
+          <Vector3 X="-337.6054" Y="95.34829" Z="-90.92879" />
+          <Vector3 X="-342.8548" Y="95.26633" Z="-90.92879" />
+          <Vector3 X="-348.1041" Y="95.18439" Z="-90.92879" />
+          <Vector3 X="-353.3535" Y="95.10243" Z="-90.92879" />
+          <Vector3 X="-358.6028" Y="95.02048" Z="-90.87643" />
+          <Vector3 X="-363.8522" Y="94.93852" Z="-90.86986" />
+          <Vector3 X="-369.1016" Y="94.85657" Z="-90.86815" />
+          <Vector3 X="-374.3507" Y="94.76172" Z="-90.86624" />
+          <Vector3 X="-379.5936" Y="94.49876" Z="-90.86624" />
+          <Vector3 X="-384.7941" Y="93.78981" Z="-90.87322" />
+          <Vector3 X="-389.9615" Y="92.86941" Z="-90.87402" />
+          <Vector3 X="-395.1158" Y="91.8743" Z="-90.87926" />
+          <Vector3 X="-400.2731" Y="92.07626" Z="-90.97247" />
+          <Vector3 X="-404.9575" Y="96.1256" Z="-91.09586" />
+          <Vector3 X="-408.721" Y="99.78596" Z="-91.19541" />
+          <Vector3 X="-412.5167" Y="103.4129" Z="-91.29578" />
+          <Vector3 X="-416.429" Y="107.1459" Z="-91.39915" />
+          <Vector3 X="-420.0615" Y="110.7133" Z="-91.4548" />
+          <Vector3 X="-423.6263" Y="114.5675" Z="-91.48442" />
+          <Vector3 X="-427.1896" Y="118.423" Z="-91.51395" />
+          <Vector3 X="-430.8598" Y="122.3943" Z="-90.61176" />
+          <Vector3 X="-432.7723" Y="128.3223" Z="-91.5096" />
+          <Vector3 X="-432.2592" Y="133.5471" Z="-91.3941" />
+          <Vector3 X="-431.7604" Y="138.7733" Z="-91.26605" />
+          <Vector3 X="-431.4673" Y="144.0145" Z="-91.14041" />
+          <Vector3 X="-431.2916" Y="149.2616" Z="-91.01701" />
+          <Vector3 X="-431.1159" Y="154.5086" Z="-90.89396" />
+          <Vector3 X="-430.7137" Y="159.7382" Z="-90.86826" />
+          <Vector3 X="-428.9245" Y="164.6295" Z="-90.86826" />
+          <Vector3 X="-425.901" Y="168.9209" Z="-90.87125" />
+          <Vector3 X="-422.8836" Y="173.217" Z="-90.87572" />
+          <Vector3 X="-419.9381" Y="177.5629" Z="-90.88022" />
+          <Vector3 X="-416.9953" Y="181.9106" Z="-90.88332" />
+          <Vector3 X="-414.0733" Y="186.2722" Z="-90.88478" />
+          <Vector3 X="-411.1833" Y="190.655" Z="-90.88619" />
+          <Vector3 X="-408.3264" Y="195.0597" Z="-90.88766" />
+          <Vector3 X="-405.4963" Y="199.4814" Z="-90.88766" />
+          <Vector3 X="-402.7089" Y="203.9304" Z="-90.88561" />
+          <Vector3 X="-400.0428" Y="208.4526" Z="-90.88095" />
+          <Vector3 X="-397.4055" Y="212.9921" Z="-90.8763" />
+          <Vector3 X="-394.7681" Y="217.5316" Z="-90.87592" />
+          <Vector3 X="-392.1308" Y="222.0711" Z="-90.87579" />
+          <Vector3 X="-389.4934" Y="226.6105" Z="-90.87572" />
+          <Vector3 X="-386.8578" Y="231.151" Z="-90.87839" />
+          <Vector3 X="-384.4377" Y="235.8088" Z="-90.86301" />
+          <Vector3 X="-382.1935" Y="240.5534" Z="-90.84897" />
+          <Vector3 X="-380.4846" Y="245.5144" Z="-90.84698" />
+          <Vector3 X="-379.4108" Y="250.6476" Z="-90.84486" />
+          <Vector3 X="-379.152" Y="255.8892" Z="-90.84264" />
+          <Vector3 X="-379.1039" Y="261.1384" Z="-90.8404" />
+          <Vector3 X="-379.3444" Y="266.381" Z="-90.83812" />
+          <Vector3 X="-380.7015" Y="271.418" Z="-90.83354" />
+          <Vector3 X="-384.9293" Y="274.3982" Z="-90.82925" />
+          <Vector3 X="-390.0383" Y="275.5441" Z="-90.82925" />
+          <Vector3 X="-395.2554" Y="276.131" Z="-90.82925" />
+          <Vector3 X="-400.4725" Y="276.7179" Z="-90.82925" />
+          <Vector3 X="-405.6896" Y="277.3047" Z="-90.82925" />
+          <Vector3 X="-410.9028" Y="277.9238" Z="-90.82925" />
+          <Vector3 X="-416.0756" Y="278.8157" Z="-91.20103" />
+          <Vector3 X="-421.1582" Y="280.1258" Z="-90.82813" />
+          <Vector3 X="-426.1905" Y="281.6204" Z="-90.82813" />
+          <Vector3 X="-431.0439" Y="283.1627" Z="-90.82813" />
+          <Vector3 X="-436.1963" Y="284.8038" Z="-90.82813" />
+          <Vector3 X="-441.3579" Y="286.451" Z="-90.78976" />
+          <Vector3 X="-446.2838" Y="288.266" Z="-90.67349" />
+          <Vector3 X="-451.1983" Y="290.1125" Z="-90.61708" />
+          <Vector3 X="-456.1129" Y="291.9591" Z="-90.62157" />
+          <Vector3 X="-461.0274" Y="293.8057" Z="-90.64935" />
+          <Vector3 X="-465.7847" Y="295.5932" Z="-90.67624" />
+          <Vector3 X="-470.4001" Y="297.3102" Z="-90.70208" />
+          <Vector3 X="-475.2997" Y="296.8161" Z="-90.69466" />
+          <Vector3 X="-477.7759" Y="291.6816" Z="-90.62" />
+          <Vector3 X="-479.9164" Y="286.8903" Z="-90.58333" />
+          <Vector3 X="-482.3841" Y="282.6313" Z="-90.62468" />
+          <Vector3 X="-485.189" Y="278.1939" Z="-90.67169" />
+          <Vector3 X="-489.0829" Y="274.2877" Z="-90.73689" />
+          <Vector3 X="-494.1541" Y="273.0672" Z="-90.82185" />
+          <Vector3 X="-499.3786" Y="272.5576" Z="-90.82728" />
+          <Vector3 X="-504.2941" Y="272.2695" Z="-90.82728" />
+          <Vector3 X="-509.5433" Y="272.1772" Z="-90.82728" />
+          <Vector3 X="-515.118" Y="272.0792" Z="-90.82728" />
+          <Vector3 X="-520.0417" Y="271.9927" Z="-90.82798" />
+          <Vector3 X="-525.2909" Y="271.9004" Z="-90.82798" />
+          <Vector3 X="-530.54" Y="271.81" Z="-90.82798" />
+          <Vector3 X="-535.7895" Y="271.867" Z="-90.82798" />
+          <Vector3 X="-541.3639" Y="271.9799" Z="-90.82798" />
+          <Vector3 X="-546.6099" Y="272.1787" Z="-90.82798" />
+          <Vector3 X="-551.8553" Y="272.3944" Z="-90.82949" />
+          <Vector3 X="-555.4632" Y="269.9424" Z="-90.83456" />
+          <Vector3 X="-553.4777" Y="265.122" Z="-90.83741" />
+          <Vector3 X="-551.6767" Y="260.1925" Z="-90.83882" />
+          <Vector3 X="-550.0059" Y="255.2155" Z="-90.84026" />
+          <Vector3 X="-548.3651" Y="250.2286" Z="-90.84322" />
+          <Vector3 X="-546.8044" Y="244.8761" Z="-90.84469" />
+          <Vector3 X="-545.4495" Y="240.1416" Z="-90.8527" />
+          <Vector3 X="-544.0051" Y="235.0942" Z="-90.87183" />
+          <Vector3 X="-542.5607" Y="230.0468" Z="-90.89396" />
+          <Vector3 X="-541.1163" Y="224.9995" Z="-90.89396" />
+          <Vector3 X="-539.6718" Y="219.9521" Z="-90.89396" />
+          <Vector3 X="-538.2274" Y="214.9047" Z="-90.89396" />
+          <Vector3 X="-536.783" Y="209.8573" Z="-90.89849" />
+          <Vector3 X="-534.9947" Y="204.929" Z="-90.90331" />
+          <Vector3 X="-532.4323" Y="200.3499" Z="-90.90796" />
+          <Vector3 X="-529.3817" Y="196.08" Z="-90.90796" />
+          <Vector3 X="-526.1723" Y="191.9255" Z="-90.90796" />
+          <Vector3 X="-522.8839" Y="187.8329" Z="-90.90669" />
+          <Vector3 X="-519.5938" Y="183.7418" Z="-90.90483" />
+          <Vector3 X="-516.3036" Y="179.6507" Z="-90.90483" />
+          <Vector3 X="-513.0134" Y="175.5596" Z="-90.90061" />
+          <Vector3 X="-509.7232" Y="171.4685" Z="-90.89631" />
+          <Vector3 X="-506.433" Y="167.3774" Z="-90.89201" />
+          <Vector3 X="-503.1429" Y="163.2862" Z="-90.89026" />
+          <Vector3 X="-499.8527" Y="159.1951" Z="-90.88218" />
+          <Vector3 X="-500.9994" Y="150.4519" Z="-91.02937" />
+          <Vector3 X="-502.3959" Y="145.3911" Z="-91.12482" />
+          <Vector3 X="-503.9481" Y="140.376" Z="-91.21727" />
+          <Vector3 X="-505.767" Y="135.4523" Z="-91.30418" />
+          <Vector3 X="-507.8382" Y="130.6282" Z="-91.32488" />
+          <Vector3 X="-509.9142" Y="125.8061" Z="-91.34144" />
+          <Vector3 X="-504.025" Y="122.2568" Z="-91.5275" />
+          <Vector3 X="-499.1928" Y="123.0333" Z="-90.85533" />
+          <Vector3 X="-494.0581" Y="124.1278" Z="-91.10342" />
+          <Vector3 X="-488.9235" Y="125.2222" Z="-91.22815" />
+          <Vector3 X="-483.7888" Y="126.3166" Z="-91.35287" />
+          <Vector3 X="-478.6542" Y="127.4111" Z="-91.47761" />
+          <Vector3 X="-481.5037" Y="125.2812" Z="-91.51134" />
+          <Vector3 X="-486.181" Y="122.8967" Z="-91.49026" />
+          <Vector3 X="-490.8966" Y="120.5891" Z="-91.46259" />
+          <Vector3 X="-495.616" Y="118.2891" Z="-91.2766" />
+          <Vector3 X="-500.3354" Y="115.9891" Z="-91.05043" />
+          <Vector3 X="-505.0547" Y="113.6891" Z="-90.82426" />
+          <Vector3 X="-509.7741" Y="111.3891" Z="-90.74921" />
+          <Vector3 X="-514.4935" Y="109.0891" Z="-91.46061" />
+          <Vector3 X="-519.2128" Y="106.7891" Z="-91.35074" />
+          <Vector3 X="-523.9323" Y="104.4891" Z="-91.22503" />
+          <Vector3 X="-528.6516" Y="102.1891" Z="-91.09931" />
+          <Vector3 X="-533.371" Y="99.8891" Z="-90.97366" />
+          <Vector3 X="-538.0903" Y="97.58909" Z="-90.85211" />
+          <Vector3 X="-543.1295" Y="96.25126" Z="-90.86928" />
+          <Vector3 X="-548.3771" Y="96.10873" Z="-90.86928" />
+          <Vector3 X="-553.6259" Y="95.99579" Z="-90.87399" />
+          <Vector3 X="-558.8749" Y="95.89697" Z="-90.87853" />
+          <Vector3 X="-564.1249" Y="95.9064" Z="-90.88313" />
+          <Vector3 X="-569.3749" Y="95.91716" Z="-90.88455" />
+          <Vector3 X="-574.6249" Y="95.92791" Z="-90.88602" />
+          <Vector3 X="-579.8749" Y="95.93867" Z="-90.88744" />
+          <Vector3 X="-585.1248" Y="95.97354" Z="-90.88744" />
+          <Vector3 X="-590.3746" Y="96.01522" Z="-90.88744" />
+          <Vector3 X="-595.6245" Y="96.0569" Z="-90.88709" />
+          <Vector3 X="-600.8743" Y="96.09857" Z="-90.88541" />
+          <Vector3 X="-606.1241" Y="96.14025" Z="-90.88515" />
+          <Vector3 X="-611.374" Y="96.18129" Z="-90.88345" />
+          <Vector3 X="-616.6239" Y="96.19367" Z="-90.88174" />
+          <Vector3 X="-622.0419" Y="96.20477" Z="-90.87998" />
+          <Vector3 X="-626.7984" Y="96.21452" Z="-90.87587" />
+          <Vector3 X="-632.5419" Y="96.22628" Z="-90.85361" />
+          <Vector3 X="-637.7919" Y="96.23703" Z="-90.84364" />
+          <Vector3 X="-643.0419" Y="96.24779" Z="-90.83393" />
+          <Vector3 X="-647.7983" Y="96.25753" Z="-90.83141" />
+          <Vector3 X="-653.5418" Y="96.27702" Z="-90.83141" />
+          <Vector3 X="-658.2979" Y="96.34216" Z="-90.83141" />
+          <Vector3 X="-663.2219" Y="96.41026" Z="-90.83141" />
+        </Path>
+        <IsCompleteWhenAtLastPath>true</IsCompleteWhenAtLastPath>
+        <ForceToStartFirstPosition>true</ForceToStartFirstPosition>
+        <IsHotSpots>false</IsHotSpots>
+        <IsLoop>false</IsLoop>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>true</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>S10MoreDragons</Name>
+      <QuestId />
+      <QuestType>FollowPath</QuestType>
+      <QuestClass xsi:type="FollowPathEasyQuestClass">
+        <Path>
+          <Vector3 X="-655.1064" Y="95.45394" Z="-90.83141" />
+          <Vector3 X="-647.7273" Y="95.26492" Z="-90.83141" />
+          <Vector3 X="-642.479" Y="95.13049" Z="-90.83324" />
+          <Vector3 X="-637.2308" Y="94.99605" Z="-90.8436" />
+          <Vector3 X="-631.9825" Y="94.86161" Z="-90.85351" />
+          <Vector3 X="-626.7341" Y="94.73103" Z="-90.87515" />
+          <Vector3 X="-621.4844" Y="94.68452" Z="-90.87836" />
+          <Vector3 X="-616.2346" Y="94.64864" Z="-90.87983" />
+          <Vector3 X="-610.9848" Y="94.59666" Z="-90.88124" />
+          <Vector3 X="-605.735" Y="94.54469" Z="-90.88404" />
+          <Vector3 X="-600.4854" Y="94.48595" Z="-90.88556" />
+          <Vector3 X="-595.2358" Y="94.42366" Z="-90.88699" />
+          <Vector3 X="-589.9861" Y="94.36137" Z="-90.88843" />
+          <Vector3 X="-584.7365" Y="94.29909" Z="-90.88843" />
+          <Vector3 X="-579.3188" Y="94.23481" Z="-90.88843" />
+          <Vector3 X="-574.0692" Y="94.17252" Z="-90.88703" />
+          <Vector3 X="-568.8196" Y="94.11024" Z="-90.88566" />
+          <Vector3 X="-563.5768" Y="94.04803" Z="-90.88408" />
+          <Vector3 X="-558.3272" Y="93.98574" Z="-90.8795" />
+          <Vector3 X="-553.0776" Y="93.92345" Z="-90.87492" />
+          <Vector3 X="-548.1534" Y="93.86503" Z="-90.87063" />
+          <Vector3 X="-542.9052" Y="93.74075" Z="-90.86966" />
+          <Vector3 X="-537.6728" Y="93.31316" Z="-90.85915" />
+          <Vector3 X="-532.5544" Y="92.22781" Z="-90.99548" />
+          <Vector3 X="-527.7343" Y="89.45781" Z="-91.12386" />
+          <Vector3 X="-523.5163" Y="86.33251" Z="-91.2362" />
+          <Vector3 X="-519.152" Y="83.44506" Z="-91.35242" />
+          <Vector3 X="-514.6845" Y="81.38181" Z="-91.45576" />
+          <Vector3 X="-509.7996" Y="79.45834" Z="-90.60954" />
+          <Vector3 X="-504.9395" Y="77.47688" Z="-90.85738" />
+          <Vector3 X="-500.726" Y="74.43256" Z="-91.0211" />
+          <Vector3 X="-498.3063" Y="69.8096" Z="-91.00455" />
+          <Vector3 X="-497.5262" Y="64.30084" Z="-90.83146" />
+          <Vector3 X="-497.1395" Y="59.39174" Z="-91.51244" />
+          <Vector3 X="-497.078" Y="53.81842" Z="-91.38499" />
+          <Vector3 X="-497.5467" Y="48.91914" Z="-91.26596" />
+          <Vector3 X="-498.9878" Y="43.87807" Z="-91.13072" />
+          <Vector3 X="-500.8487" Y="38.96946" Z="-90.9929" />
+          <Vector3 X="-503.0117" Y="34.18908" Z="-90.85404" />
+          <Vector3 X="-505.6212" Y="29.6341" Z="-90.87838" />
+          <Vector3 X="-508.4503" Y="24.82968" Z="-90.87838" />
+          <Vector3 X="-511.0462" Y="20.6451" Z="-90.87978" />
+          <Vector3 X="-513.8335" Y="16.1961" Z="-90.88119" />
+          <Vector3 X="-516.4312" Y="11.63543" Z="-90.88274" />
+          <Vector3 X="-518.9601" Y="7.03473" Z="-90.88206" />
+          <Vector3 X="-521.7161" Y="2.188387" Z="-90.88074" />
+          <Vector3 X="-524.2065" Y="-2.05996" Z="-90.88065" />
+          <Vector3 X="-526.8616" Y="-6.589114" Z="-90.88035" />
+          <Vector3 X="-529.5156" Y="-11.11649" Z="-90.88024" />
+          <Vector3 X="-532.1706" Y="-15.64564" Z="-90.87853" />
+          <Vector3 X="-534.8257" Y="-20.1748" Z="-90.87682" />
+          <Vector3 X="-537.4807" Y="-24.70395" Z="-90.87539" />
+          <Vector3 X="-540.1357" Y="-29.2331" Z="-90.87368" />
+          <Vector3 X="-542.7908" Y="-33.76226" Z="-90.87197" />
+          <Vector3 X="-545.4459" Y="-38.29141" Z="-90.87026" />
+          <Vector3 X="-548.1009" Y="-42.82056" Z="-90.87289" />
+          <Vector3 X="-550.6968" Y="-47.38304" Z="-90.85385" />
+          <Vector3 X="-553.0555" Y="-52.0733" Z="-90.84879" />
+          <Vector3 X="-555.3668" Y="-56.78687" Z="-90.84696" />
+          <Vector3 X="-557.6089" Y="-61.53403" Z="-90.84513" />
+          <Vector3 X="-559.0035" Y="-66.23367" Z="-90.84323" />
+          <Vector3 X="-554.9254" Y="-58.9525" Z="-90.84463" />
+          <Vector3 X="-552.485" Y="-54.30421" Z="-90.84607" />
+          <Vector3 X="-550.0084" Y="-49.67517" Z="-90.8476" />
+          <Vector3 X="-547.3537" Y="-44.96418" Z="-90.86679" />
+          <Vector3 X="-544.7537" Y="-40.40328" Z="-90.87019" />
+          <Vector3 X="-542.108" Y="-35.86861" Z="-90.87019" />
+          <Vector3 X="-539.4619" Y="-31.33425" Z="-90.87166" />
+          <Vector3 X="-536.8157" Y="-26.7999" Z="-90.87312" />
+          <Vector3 X="-534.1696" Y="-22.26555" Z="-90.87466" />
+          <Vector3 X="-531.5234" Y="-17.73119" Z="-90.87613" />
+          <Vector3 X="-528.8773" Y="-13.19684" Z="-90.87894" />
+          <Vector3 X="-526.2106" Y="-8.674561" Z="-90.87894" />
+          <Vector3 X="-523.5289" Y="-4.161129" Z="-90.87894" />
+          <Vector3 X="-520.8472" Y="0.3523016" Z="-90.88033" />
+          <Vector3 X="-518.1595" Y="4.862104" Z="-90.8818" />
+          <Vector3 X="-515.4689" Y="9.37026" Z="-90.88322" />
+          <Vector3 X="-512.7784" Y="13.87842" Z="-90.88216" />
+          <Vector3 X="-510.0878" Y="18.38657" Z="-90.88049" />
+          <Vector3 X="-507.3973" Y="22.89473" Z="-90.87927" />
+          <Vector3 X="-504.5943" Y="27.33169" Z="-90.87927" />
+          <Vector3 X="-501.3461" Y="31.45134" Z="-90.87916" />
+          <Vector3 X="-497.4845" Y="35.00307" Z="-90.9462" />
+          <Vector3 X="-493.5123" Y="38.43582" Z="-91.07807" />
+          <Vector3 X="-489.6494" Y="41.47855" Z="-91.1995" />
+          <Vector3 X="-485.7586" Y="45.00031" Z="-91.33233" />
+          <Vector3 X="-482.1919" Y="48.85227" Z="-91.46848" />
+          <Vector3 X="-478.6507" Y="52.72811" Z="-90.78635" />
+          <Vector3 X="-475.1094" Y="56.60395" Z="-91.09332" />
+          <Vector3 X="-471.5341" Y="60.44792" Z="-91.3894" />
+          <Vector3 X="-467.8823" Y="64.21948" Z="-92.3484" />
+          <Vector3 X="-464.1624" Y="67.9242" Z="-92.77521" />
+          <Vector3 X="-460.3255" Y="71.50568" Z="-93.16785" />
+          <Vector3 X="-456.0479" Y="74.53023" Z="-93.22324" />
+          <Vector3 X="-451.0013" Y="75.80874" Z="-93.06009" />
+          <Vector3 X="-445.7568" Y="76.00136" Z="-92.69179" />
+          <Vector3 X="-440.5383" Y="75.47878" Z="-91.54134" />
+          <Vector3 X="-435.4438" Y="74.25137" Z="-91.15438" />
+          <Vector3 X="-432.7464" Y="70.13354" Z="-90.81567" />
+          <Vector3 X="-432.6431" Y="64.88477" Z="-90.60647" />
+          <Vector3 X="-432.5584" Y="59.46743" Z="-91.45608" />
+          <Vector3 X="-432.3568" Y="54.39128" Z="-91.33662" />
+          <Vector3 X="-431.8526" Y="49.16563" Z="-91.20969" />
+          <Vector3 X="-431.228" Y="43.95304" Z="-91.08145" />
+          <Vector3 X="-430.3635" Y="38.77537" Z="-90.95084" />
+          <Vector3 X="-429.437" Y="33.93946" Z="-90.86087" />
+          <Vector3 X="-427.8964" Y="28.41005" Z="-90.86814" />
+          <Vector3 X="-426.0809" Y="24.01732" Z="-90.86718" />
+          <Vector3 X="-423.3553" Y="18.96533" Z="-90.86259" />
+          <Vector3 X="-421.2375" Y="15.46061" Z="-90.85923" />
+          <Vector3 X="-424.1632" Y="19.81294" Z="-90.86235" />
+          <Vector3 X="-426.6779" Y="24.04693" Z="-90.86678" />
+          <Vector3 X="-429.3589" Y="28.56078" Z="-90.86854" />
+          <Vector3 X="-431.7895" Y="33.19785" Z="-90.85503" />
+          <Vector3 X="-432.4713" Y="38.38555" Z="-90.96978" />
+          <Vector3 X="-432.1461" Y="43.61958" Z="-91.08587" />
+          <Vector3 X="-430.9308" Y="48.72057" Z="-91.18718" />
+          <Vector3 X="-429.427" Y="53.75041" Z="-91.2829" />
+          <Vector3 X="-427.5445" Y="58.64909" Z="-91.33938" />
+          <Vector3 X="-425.4686" Y="63.47122" Z="-91.3567" />
+          <Vector3 X="-423.3926" Y="68.29336" Z="-91.37311" />
+          <Vector3 X="-421.3167" Y="73.11549" Z="-91.3896" />
+          <Vector3 X="-419.2408" Y="77.93762" Z="-91.40607" />
+          <Vector3 X="-416.9808" Y="82.66482" Z="-91.40748" />
+          <Vector3 X="-413.6016" Y="86.67939" Z="-91.31767" />
+          <Vector3 X="-409.6675" Y="90.14295" Z="-91.21309" />
+          <Vector3 X="-405.0712" Y="92.65899" Z="-91.09577" />
+          <Vector3 X="-400.0205" Y="94.05048" Z="-90.96889" />
+          <Vector3 X="-394.8019" Y="94.59782" Z="-90.88638" />
+          <Vector3 X="-389.5576" Y="94.83981" Z="-90.8734" />
+          <Vector3 X="-384.3121" Y="95.057" Z="-90.8733" />
+          <Vector3 X="-379.0638" Y="95.19058" Z="-90.86521" />
+          <Vector3 X="-373.8144" Y="95.26517" Z="-90.86521" />
+          <Vector3 X="-368.5647" Y="95.32661" Z="-90.86672" />
+          <Vector3 X="-363.3151" Y="95.38805" Z="-90.86814" />
+          <Vector3 X="-358.0655" Y="95.44948" Z="-90.88161" />
+          <Vector3 X="-352.8158" Y="95.51092" Z="-90.92701" />
+          <Vector3 X="-347.5662" Y="95.57236" Z="-90.92841" />
+          <Vector3 X="-342.3165" Y="95.63379" Z="-90.92841" />
+          <Vector3 X="-337.0669" Y="95.69523" Z="-90.92841" />
+          <Vector3 X="-331.6598" Y="95.75851" Z="-90.92841" />
+          <Vector3 X="-326.4101" Y="95.81995" Z="-91.06203" />
+          <Vector3 X="-321.1605" Y="95.88074" Z="-91.21798" />
+          <Vector3 X="-315.9107" Y="95.93187" Z="-91.37392" />
+          <Vector3 X="-310.661" Y="95.983" Z="-91.47105" />
+          <Vector3 X="-305.4112" Y="96.03413" Z="-91.46998" />
+          <Vector3 X="-300.1614" Y="96.07947" Z="-91.46854" />
+          <Vector3 X="-295.437" Y="94.26321" Z="-91.46842" />
+          <Vector3 X="-294.1828" Y="89.31256" Z="-91.46842" />
+          <Vector3 X="-294.4466" Y="84.0694" Z="-91.46842" />
+          <Vector3 X="-294.5096" Y="78.82024" Z="-91.46842" />
+          <Vector3 X="-294.4688" Y="73.5704" Z="-91.46842" />
+          <Vector3 X="-294.428" Y="68.32056" Z="-91.46842" />
+          <Vector3 X="-294.3871" Y="63.07071" Z="-91.46842" />
+          <Vector3 X="-294.3463" Y="57.82087" Z="-91.46842" />
+          <Vector3 X="-294.3055" Y="52.57103" Z="-91.0429" />
+          <Vector3 X="-294.6237" Y="47.3358" Z="-90.80965" />
+          <Vector3 X="-295.94" Y="42.263" Z="-91.50148" />
+          <Vector3 X="-298.1568" Y="37.51045" Z="-93.06706" />
+          <Vector3 X="-301.4654" Y="33.45616" Z="-94.09365" />
+          <Vector3 X="-305.6184" Y="30.26003" Z="-95.4351" />
+          <Vector3 X="-310.5109" Y="28.46651" Z="-96.80318" />
+          <Vector3 X="-315.7445" Y="28.49794" Z="-97.76962" />
+          <Vector3 X="-320.8151" Y="29.80569" Z="-99.24719" />
+          <Vector3 X="-325.2408" Y="32.58709" Z="-100.4176" />
+          <Vector3 X="-328.4169" Y="35.90992" Z="-101.3132" />
+          <Vector3 X="-331.4642" Y="41.31439" Z="-102.8941" />
+          <Vector3 X="-332.8851" Y="46.33541" Z="-104.138" />
+          <Vector3 X="-332.0993" Y="51.50077" Z="-105.1888" />
+          <Vector3 X="-329.6978" Y="56.13475" Z="-106.5458" />
+          <Vector3 X="-326.4382" Y="60.23799" Z="-107.729" />
+          <Vector3 X="-322.2069" Y="63.29105" Z="-108.9127" />
+          <Vector3 X="-317.2496" Y="64.99347" Z="-110.3445" />
+          <Vector3 X="-312.0286" Y="65.42475" Z="-111.3613" />
+          <Vector3 X="-306.9242" Y="64.33356" Z="-112.7577" />
+          <Vector3 X="-302.2785" Y="61.89927" Z="-113.9942" />
+          <Vector3 X="-298.6834" Y="58.13306" Z="-115.0847" />
+          <Vector3 X="-296.1646" Y="53.54353" Z="-116.3623" />
+          <Vector3 X="-294.923" Y="48.46395" Z="-117.7407" />
+          <Vector3 X="-295.0866" Y="43.05747" Z="-118.7259" />
+          <Vector3 X="-296.6496" Y="38.07144" Z="-120.0745" />
+          <Vector3 X="-299.5984" Y="33.74745" Z="-121.2973" />
+          <Vector3 X="-303.7458" Y="30.55748" Z="-122.3715" />
+          <Vector3 X="-308.6924" Y="28.91203" Z="-123.715" />
+          <Vector3 X="-313.9349" Y="28.74305" Z="-124.9777" />
+          <Vector3 X="-319.1168" Y="29.4898" Z="-126.1445" />
+          <Vector3 X="-323.892" Y="31.62941" Z="-127.2477" />
+          <Vector3 X="-327.9614" Y="34.91873" Z="-128.6412" />
+          <Vector3 X="-330.8406" Y="38.8963" Z="-130.1392" />
+          <Vector3 X="-332.4384" Y="44.19415" Z="-130.4875" />
+          <Vector3 X="-332.5398" Y="49.44226" Z="-131.073" />
+          <Vector3 X="-332.5568" Y="54.69218" Z="-131.8586" />
+          <Vector3 X="-332.4705" Y="59.6159" Z="-131.8586" />
+          <Vector3 X="-332.3671" Y="64.86488" Z="-131.8586" />
+          <Vector3 X="-332.2573" Y="70.4393" Z="-131.8586" />
+          <Vector3 X="-332.1387" Y="75.36208" Z="-131.8544" />
+          <Vector3 X="-330.9614" Y="80.46921" Z="-131.8492" />
+          <Vector3 X="-329.2798" Y="85.78509" Z="-131.8492" />
+          <Vector3 X="-327.7859" Y="90.47755" Z="-131.8492" />
+          <Vector3 X="-325.8056" Y="95.30943" Z="-131.8492" />
+          <Vector3 X="-323.5124" Y="98.30106" Z="-131.8492" />
+          <Vector3 X="-320.5293" Y="100.7844" Z="-131.8492" />
+          <Vector3 X="-315.3647" Y="101.3701" Z="-131.8492" />
+          <Vector3 X="-310.1187" Y="101.1637" Z="-131.8492" />
+          <Vector3 X="-10176.6" Y="-3995.35" Z="-112.185" />
+          <Vector3 X="-10172.34" Y="-3996.571" Z="-113.4373" />
+          <Vector3 X="-315.903" Y="100.197" Z="-131.849" />
+          <Vector3 X="-319.515" Y="100.197" Z="-131.849" />
+          <Vector3 X="-324.7625" Y="100.1128" Z="-131.849" />
+        </Path>
+        <IsCompleteWhenAtLastPath>true</IsCompleteWhenAtLastPath>
+        <ForceToStartFirstPosition>true</ForceToStartFirstPosition>
+        <IsHotSpots>false</IsHotSpots>
+        <IsLoop>false</IsLoop>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>true</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>S11BackToLobby</Name>
+      <QuestId />
+      <QuestType>FollowPath</QuestType>
+      <QuestClass xsi:type="FollowPathEasyQuestClass">
+        <Path>
+          <Vector3 X="-423.2409" Y="18.26018" Z="-90.86093" />
+          <Vector3 X="-426.1739" Y="23.19833" Z="-90.86678" />
+          <Vector3 X="-428.7691" Y="27.56774" Z="-90.86854" />
+          <Vector3 X="-431.4483" Y="32.27196" Z="-90.86854" />
+          <Vector3 X="-432.4379" Y="37.39917" Z="-90.94664" />
+          <Vector3 X="-432.2667" Y="42.63999" Z="-91.06499" />
+          <Vector3 X="-431.21" Y="47.77387" Z="-91.16906" />
+          <Vector3 X="-429.7235" Y="52.80905" Z="-91.26524" />
+          <Vector3 X="-427.9342" Y="57.74227" Z="-91.33733" />
+          <Vector3 X="-425.8589" Y="62.56466" Z="-91.35265" />
+          <Vector3 X="-423.7829" Y="67.3868" Z="-91.36895" />
+          <Vector3 X="-421.707" Y="72.20893" Z="-91.38546" />
+          <Vector3 X="-419.631" Y="77.03107" Z="-91.40191" />
+          <Vector3 X="-417.5098" Y="81.83224" Z="-91.4177" />
+          <Vector3 X="-414.2684" Y="85.9517" Z="-91.33539" />
+          <Vector3 X="-410.4626" Y="89.55839" Z="-91.23423" />
+          <Vector3 X="-405.9765" Y="92.26609" Z="-91.11836" />
+          <Vector3 X="-400.9912" Y="93.87209" Z="-90.99337" />
+          <Vector3 X="-395.7869" Y="94.53403" Z="-90.87163" />
+          <Vector3 X="-390.5436" Y="94.79726" Z="-90.8734" />
+          <Vector3 X="-385.2985" Y="95.02357" Z="-90.87511" />
+          <Vector3 X="-380.0505" Y="95.16547" Z="-90.86521" />
+          <Vector3 X="-374.8013" Y="95.25362" Z="-90.86521" />
+          <Vector3 X="-369.5517" Y="95.31506" Z="-90.86521" />
+          <Vector3 X="-364.302" Y="95.3765" Z="-90.86814" />
+          <Vector3 X="-359.0524" Y="95.43793" Z="-90.86958" />
+          <Vector3 X="-353.8028" Y="95.49937" Z="-90.92701" />
+          <Vector3 X="-348.5531" Y="95.56081" Z="-90.92841" />
+          <Vector3 X="-343.3035" Y="95.62224" Z="-90.92841" />
+          <Vector3 X="-338.0538" Y="95.68368" Z="-90.92841" />
+          <Vector3 X="-332.8042" Y="95.74511" Z="-90.92841" />
+          <Vector3 X="-327.5546" Y="95.80655" Z="-91.02803" />
+          <Vector3 X="-322.3049" Y="95.86799" Z="-91.18399" />
+          <Vector3 X="-317.0552" Y="95.92072" Z="-91.33991" />
+          <Vector3 X="-311.8054" Y="95.97186" Z="-91.47148" />
+          <Vector3 X="-306.5557" Y="96.02298" Z="-91.46998" />
+          <Vector3 X="-301.3059" Y="96.07411" Z="-91.46893" />
+          <Vector3 X="-296.2693" Y="95.04585" Z="-91.46842" />
+          <Vector3 X="-294.151" Y="90.45655" Z="-91.46842" />
+          <Vector3 X="-294.4045" Y="85.2131" Z="-91.46842" />
+          <Vector3 X="-294.5179" Y="79.96471" Z="-91.46842" />
+          <Vector3 X="-294.4777" Y="74.71486" Z="-91.46842" />
+          <Vector3 X="-294.4369" Y="69.46502" Z="-91.46842" />
+          <Vector3 X="-294.3961" Y="64.21518" Z="-91.46842" />
+          <Vector3 X="-294.3552" Y="58.96534" Z="-91.46842" />
+          <Vector3 X="-294.3144" Y="53.7155" Z="-91.15647" />
+          <Vector3 X="-294.4853" Y="48.47179" Z="-90.80965" />
+          <Vector3 X="-295.566" Y="43.34455" Z="-91.27165" />
+          <Vector3 X="-297.6035" Y="38.51222" Z="-92.71397" />
+          <Vector3 X="-300.7657" Y="34.15224" Z="-93.83612" />
+          <Vector3 X="-304.79" Y="30.79653" Z="-95.25412" />
+          <Vector3 X="-309.5393" Y="28.6389" Z="-96.47224" />
+          <Vector3 X="-314.7627" Y="28.39803" Z="-97.59139" />
+          <Vector3 X="-319.8901" Y="29.46191" Z="-99.0757" />
+          <Vector3 X="-324.4815" Y="31.95665" Z="-100.1051" />
+          <Vector3 X="-328.1903" Y="35.66184" Z="-101.1931" />
+          <Vector3 X="-331.0604" Y="40.41382" Z="-102.712" />
+          <Vector3 X="-332.7404" Y="45.03159" Z="-103.6867" />
+          <Vector3 X="-332.3535" Y="50.54708" Z="-105.0146" />
+          <Vector3 X="-330.252" Y="55.31808" Z="-106.3678" />
+          <Vector3 X="-327.3399" Y="59.28443" Z="-107.2748" />
+          <Vector3 X="-323.3723" Y="62.68922" Z="-108.671" />
+          <Vector3 X="-318.21" Y="64.76669" Z="-109.9932" />
+          <Vector3 X="-313.0155" Y="65.43176" Z="-111.1839" />
+          <Vector3 X="-308.1555" Y="64.7864" Z="-112.5179" />
+          <Vector3 X="-303.4061" Y="62.57064" Z="-113.5443" />
+          <Vector3 X="-299.2588" Y="58.93499" Z="-114.9025" />
+          <Vector3 X="-296.5496" Y="54.45229" Z="-116.1849" />
+          <Vector3 X="-295.0721" Y="49.76766" Z="-117.2978" />
+          <Vector3 X="-294.9657" Y="44.20604" Z="-118.5175" />
+          <Vector3 X="-296.0435" Y="39.42153" Z="-119.8054" />
+          <Vector3 X="-298.6397" Y="34.8747" Z="-120.776" />
+          <Vector3 X="-302.4862" Y="31.33422" Z="-122.101" />
+          <Vector3 X="-307.2339" Y="29.15969" Z="-123.4585" />
+          <Vector3 X="-312.4546" Y="28.72294" Z="-124.5229" />
+          <Vector3 X="-317.6774" Y="29.14487" Z="-125.6562" />
+          <Vector3 X="-322.6082" Y="30.89254" Z="-126.9809" />
+          <Vector3 X="-326.9087" Y="33.87791" Z="-128.3722" />
+          <Vector3 X="-330.2604" Y="37.8978" Z="-129.7431" />
+          <Vector3 X="-332.2401" Y="42.72791" Z="-130.4721" />
+          <Vector3 X="-332.5312" Y="47.96178" Z="-130.793" />
+          <Vector3 X="-332.5611" Y="53.2117" Z="-131.7963" />
+          <Vector3 X="-332.4932" Y="58.46113" Z="-131.8586" />
+          <Vector3 X="-332.3898" Y="63.71011" Z="-131.8586" />
+          <Vector3 X="-332.2864" Y="68.95909" Z="-131.8586" />
+          <Vector3 X="-332.183" Y="74.20807" Z="-131.8581" />
+          <Vector3 X="-331.2993" Y="79.36478" Z="-131.8492" />
+          <Vector3 X="-329.7263" Y="84.37353" Z="-131.8492" />
+          <Vector3 X="-328.1371" Y="89.37721" Z="-131.8492" />
+          <Vector3 X="-326.4248" Y="94.33524" Z="-131.8492" />
+          <Vector3 X="-323.5124" Y="98.30106" Z="-131.8492" />
+        </Path>
+        <IsCompleteWhenAtLastPath>true</IsCompleteWhenAtLastPath>
+        <ForceToStartFirstPosition>true</ForceToStartFirstPosition>
+        <IsHotSpots>false</IsHotSpots>
+        <IsLoop>false</IsLoop>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>true</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+  </EasyQuests>
+  <Script>
+public class MyCustomScript
+{
+    static MyCustomScript()
+    {
+        // You can put here code to run when bot start, you can also add methods and classes.
+    }
+}
+</Script>
+  <OffMeshConnections />
+  <BlacklistNpc />
+  <BlacklistNpcType />
+  <Blackspots />
+</EasyQuestProfile>

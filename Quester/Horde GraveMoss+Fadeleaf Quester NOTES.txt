@@ -1,0 +1,107 @@
+wManager.wManagerSetting.CurrentSetting.UseMount = true;
+wManager.wManagerSetting.CurrentSetting.IgnoreFightGoundMount = true;
+wManager.wManagerSetting.CurrentSetting.IgnoreCombatWithPet = true;
+wManager.wManagerSetting.CurrentSetting.HarvestHerbs = true;
+wManager.wManagerSetting.CurrentSetting.SearchRadiusObjects = 30;
+
+
+BlackListHarvestByName
+ListHarvestByName 
+
+/run DEFAULT_CHAT_FRAME:AddMessage(GetMouseFocus():GetName())
+
+QuesterCustomScript.cs
+
+TURTLE WOW
+
+hammerfall -> stonard
+TaxiButton8
+
+hammerfall -> flame crest
+TaxiButton10
+
+hammerfall -> kargath
+TaxiButton7
+
+kargath -> stonard
+TaxiButton8
+
+kargath -> flame crest
+TaxiButton10
+
+kargath -> hammerfall
+TaxiButton4
+
+flame crest -> hammerfall
+TaxiButton4
+
+flame crest -> stonard
+TaxiButton8
+
+flame crest -> kargath
+TaxiButton7
+
+stonard -> hammerfall
+TaxiButton4
+
+stonard -> flame crest
+TaxiButton10
+
+stonard -> kargath
+TaxiButton7
+
+MY PRIVATE SERVER
+
+hammerfall -> stonard
+TaxiButton3
+
+hammerfall -> flame crest
+TaxiButton4
+
+hammerfall -> kargath
+TaxiButton2
+
+kargath -> stonard
+TaxiButton3
+
+kargath -> flame crest
+TaxiButton4
+
+kargath -> hammerfall
+TaxiButton1
+
+flame crest -> hammerfall
+TaxiButton1
+
+flame crest -> stonard
+TaxiButton3
+
+flame crest -> kargath
+TaxiButton2
+
+stonard -> hammerfall
+TaxiButton1
+
+stonard -> flame crest
+TaxiButton4
+
+stonard -> kargath
+TaxiButton2
+
+
+
+
+
+if (!Methods.Realm())
+{
+	// my private server
+	Lua.LuaDoString("TaxiButton3:Click()");
+}
+else
+{
+	// turtlewow
+	Lua.LuaDoString("TaxiButton8:Click()");
+}
+
+
+

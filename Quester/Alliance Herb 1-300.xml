@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<EasyQuestProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <QuestsSorted>
+    <QuestsSorted Action="Pulse" NameClass="Herb175" />
+    <QuestsSorted Action="Pulse" NameClass="Herb75105" />
+    <QuestsSorted Action="Pulse" NameClass="Herb105150" />
+    <QuestsSorted Action="Pulse" NameClass="Herb150230" />
+  </QuestsSorted>
+  <NpcQuest />
+  <Npc />
+  <Blackspots>
+    <Blackspot X="-575.2356" Y="412.2584" Z="79.52431" Radius="34.30073" />
+  </Blackspots>
+  <BlackGuids />
+  <EasyQuests>
+    <EasyQuest>
+      <Name>Herb 1-75</Name>
+      <QuestId />
+      <QuestType>FollowPath</QuestType>
+      <QuestClass xsi:type="FollowPathEasyQuestClass">
+        <Path>
+          <Vector3 X="-9266.667" Y="152.0833" Z="67.2334" />
+          <Vector3 X="-9683.333" Y="310.4167" Z="46.4941" />
+          <Vector3 X="-9908.333" Y="-37.5" Z="30.3281" />
+          <Vector3 X="-9737.5" Y="-381.25" Z="52.0879" />
+          <Vector3 X="-9762.5" Y="-837.499" Z="39.3828" />
+          <Vector3 X="-9877.083" Y="-1450" Z="32.9199" />
+          <Vector3 X="-9477.083" Y="-1458.333" Z="60.2373" />
+          <Vector3 X="-9339.583" Y="-1110.416" Z="66.7256" />
+          <Vector3 X="-9354.166" Y="-718.75" Z="66.7227" />
+          <Vector3 X="-9337.5" Y="-197.916" Z="66.5479" />
+        </Path>
+        <IsCompleteWhenAtLastPath>false</IsCompleteWhenAtLastPath>
+        <ForceToStartFirstPosition>false</ForceToStartFirstPosition>
+        <IsHotSpots>true</IsHotSpots>
+        <IsLoop>true</IsLoop>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition>return Skill.GetValue(SkillLine.Herbalism) &gt;= 1;</CanCondition>
+      <IsCompleteCondition>return Skill.GetValue(SkillLine.Herbalism) &gt;= 75;</IsCompleteCondition>
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>true</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Herb 75-105</Name>
+      <QuestId />
+      <QuestType>FollowPath</QuestType>
+      <QuestClass xsi:type="FollowPathEasyQuestClass">
+        <Path>
+          <Vector3 X="-9739.583" Y="1362.5" Z="42.7861" />
+          <Vector3 X="-9966.666" Y="1643.75" Z="37.4932" />
+          <Vector3 X="-10168.75" Y="1795.833" Z="35.5713" />
+          <Vector3 X="-10504.17" Y="1816.667" Z="38.9844" />
+          <Vector3 X="-10735.42" Y="1829.167" Z="40.7363" />
+          <Vector3 X="-11143.75" Y="1814.583" Z="38.6035" />
+          <Vector3 X="-10870.83" Y="1414.583" Z="45.6748" />
+          <Vector3 X="-10860.42" Y="1060.417" Z="36.3408" />
+          <Vector3 X="-10614.58" Y="860.4166" Z="43.1113" />
+          <Vector3 X="-10254.17" Y="1043.75" Z="40.8779" />
+          <Vector3 X="-9941.666" Y="954.1666" Z="40.1621" />
+        </Path>
+        <IsCompleteWhenAtLastPath>false</IsCompleteWhenAtLastPath>
+        <ForceToStartFirstPosition>false</ForceToStartFirstPosition>
+        <IsHotSpots>true</IsHotSpots>
+        <IsLoop>true</IsLoop>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition>return Skill.GetValue(SkillLine.Herbalism) &gt;= 75;</CanCondition>
+      <IsCompleteCondition>return Skill.GetValue(SkillLine.Herbalism) &gt;= 105;</IsCompleteCondition>
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>true</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Herb 105-150</Name>
+      <QuestId />
+      <QuestType>FollowPath</QuestType>
+      <QuestClass xsi:type="FollowPathEasyQuestClass">
+        <Path>
+          <Vector3 X="-942.9987" Y="-340.1325" Z="45.27077" Type="None" />
+    <Vector3 X="-877.7682" Y="-253.5667" Z="47.13131" Type="None" />
+    <Vector3 X="-895.3155" Y="-120.9878" Z="26.08649" Type="None" />
+    <Vector3 X="-800.5334" Y="-188.2409" Z="36.92001" Type="None" />
+    <Vector3 X="-920.3223" Y="130.3684" Z="41.16725" Type="None" />
+    <Vector3 X="-838.0728" Y="140.8767" Z="37.95422" Type="None" />
+    <Vector3 X="-822.5082" Y="45.06429" Z="30.74341" Type="None" />
+    <Vector3 X="-748.6235" Y="104.1727" Z="42.39048" Type="None" />
+    <Vector3 X="-752.8356" Y="496.9808" Z="82.18471" Type="None" />
+    <Vector3 X="-481.5938" Y="274.9377" Z="83.96138" Type="None" />
+    <Vector3 X="-516.7764" Y="209.7841" Z="72.90986" Type="None" />
+    <Vector3 X="-323.8878" Y="264.7198" Z="111.5267" Type="None" />
+    <Vector3 X="-283.2286" Y="163.5956" Z="86.92825" Type="None" />
+    <Vector3 X="-195.0633" Y="267.3799" Z="93.82221" Type="None" />
+    <Vector3 X="-182.3672" Y="355.4846" Z="107.9558" Type="None" />
+    <Vector3 X="-69.43607" Y="369.3854" Z="67.82455" Type="None" />
+    <Vector3 X="89.99419" Y="475.5718" Z="41.90797" Type="None" />
+    <Vector3 X="498.5916" Y="222.376" Z="41.82971" Type="None" />
+    <Vector3 X="486.2759" Y="138.4121" Z="43.87174" Type="None" />
+    <Vector3 X="311.8734" Y="105.6155" Z="47.59302" Type="None" />
+    <Vector3 X="194.9888" Y="143.3957" Z="51.39187" Type="None" />
+    <Vector3 X="27.09256" Y="29.99121" Z="59.98881" Type="None" />
+    <Vector3 X="-34.30024" Y="-46.06407" Z="126.0875" Type="None" />
+    <Vector3 X="-82.96233" Y="-64.21311" Z="137.9734" Type="None" />
+    <Vector3 X="-121.111" Y="-111.5001" Z="139.7977" Type="None" />
+    <Vector3 X="-202.9191" Y="-92.16745" Z="90.46088" Type="None" />
+    <Vector3 X="-289.851" Y="-120.8418" Z="64.16869" Type="None" />
+        </Path>
+        <IsCompleteWhenAtLastPath>false</IsCompleteWhenAtLastPath>
+        <ForceToStartFirstPosition>false</ForceToStartFirstPosition>
+        <IsHotSpots>true</IsHotSpots>
+        <IsLoop>true</IsLoop>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition>return Skill.GetValue(SkillLine.Herbalism) &gt;= 105;</CanCondition>
+      <IsCompleteCondition>return Skill.GetValue(SkillLine.Herbalism) &gt;= 150;</IsCompleteCondition>
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>true</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Herb 150-230</Name>
+      <QuestId />
+      <QuestType>FollowPath</QuestType>
+      <QuestClass xsi:type="FollowPathEasyQuestClass">
+        <Path>
+          <Vector3 X="-1081.25" Y="-2900" Z="42.1348" />
+          <Vector3 X="-920.8333" Y="-2314.583" Z="47.3711" />
+          <Vector3 X="-643.75" Y="-1977.083" Z="56.5791" />
+          <Vector3 X="-1150" Y="-1545.833" Z="55.7852" />
+          <Vector3 X="-1308.333" Y="-1866.667" Z="60.0459" />
+          <Vector3 X="-1527.083" Y="-2502.083" Z="57.9492" />
+          <Vector3 X="-2029.167" Y="-2556.25" Z="69.7705" />
+          <Vector3 X="-1647.917" Y="-2945.833" Z="29.7451" />
+          <Vector3 X="-1645.833" Y="-3300" Z="21.3955" />
+          <Vector3 X="-1375" Y="-3370.833" Z="44.2588" />
+          <Vector3 X="-1114.583" Y="-3379.167" Z="40.4297" />
+        </Path>
+        <IsCompleteWhenAtLastPath>false</IsCompleteWhenAtLastPath>
+        <ForceToStartFirstPosition>false</ForceToStartFirstPosition>
+        <IsHotSpots>true</IsHotSpots>
+        <IsLoop>true</IsLoop>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition>return Skill.GetValue(SkillLine.Herbalism) &gt;= 150;</CanCondition>
+      <IsCompleteCondition>return Skill.GetValue(SkillLine.Herbalism) &gt;= 300;</IsCompleteCondition>
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>true</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+  </EasyQuests>
+  <Script>
+public class MyCustomScript
+{
+    static MyCustomScript()
+    {
+        // You can put here code to run when bot start, you can also add methods and classes.
+    }
+}
+</Script>
+  <OffMeshConnections />
+</EasyQuestProfile>

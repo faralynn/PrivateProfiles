@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GrinderProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GrinderZones>
+    <GrinderZone>
+      <Name>Silithus</Name>
+      <Hotspots>false</Hotspots>
+      <RandomizingHotspots>false</RandomizingHotspots>
+      <MinLevel>0</MinLevel>
+      <MaxLevel>600</MaxLevel>
+      <MinTargetLevel>0</MinTargetLevel>
+      <MaxTargetLevel>610</MaxTargetLevel>
+      <TargetEntry>
+        <int>11746</int>
+      </TargetEntry>
+      <TargetFactions />
+      <Vectors3>
+        <Vector3 X="-6253.578" Y="1600.623" Z="6.319453" />
+        <Vector3 X="-6241.37" Y="1597.181" Z="7.012302" />
+        <Vector3 X="-6231.046" Y="1602.111" Z="7.449521" />
+        <Vector3 X="-6224.377" Y="1615.287" Z="7.579508" />
+        <Vector3 X="-6219.633" Y="1628.459" Z="6.869989" />
+        <Vector3 X="-6214.712" Y="1641.562" Z="8.4809" />
+        <Vector3 X="-6209.942" Y="1654.717" Z="7.091304" />
+        <Vector3 X="-6205.665" Y="1668.517" Z="6.131047" />
+        <Vector3 X="-6202.537" Y="1681.68" Z="6.708139" />
+        <Vector3 X="-6202.795" Y="1696.972" Z="10.68279" />
+        <Vector3 X="-6205.649" Y="1710.666" Z="10.84282" />
+        <Vector3 X="-6210.472" Y="1724.743" Z="10.81051" />
+        <Vector3 X="-6215.896" Y="1737.65" Z="10.25059" />
+        <Vector3 X="-6222.089" Y="1750.19" Z="11.28711" />
+        <Vector3 X="-6230.21" Y="1762.639" Z="10.90244" />
+        <Vector3 X="-6238.261" Y="1774.093" Z="11.97432" />
+        <Vector3 X="-6247.03" Y="1786.095" Z="11.17388" />
+        <Vector3 X="-6257.231" Y="1796.895" Z="10.57601" />
+        <Vector3 X="-6269.325" Y="1805.539" Z="7.550324" />
+        <Vector3 X="-6282.658" Y="1813.01" Z="6.347075" />
+        <Vector3 X="-6296.333" Y="1815.486" Z="4.339329" />
+        <Vector3 X="-6311.154" Y="1816.587" Z="3.930797" />
+        <Vector3 X="-6322.662" Y="1812.038" Z="4.24794" />
+        <Vector3 X="-6333.81" Y="1802.35" Z="3.75597" />
+        <Vector3 X="-6343.702" Y="1791.266" Z="3.454247" />
+        <Vector3 X="-6349.972" Y="1781.752" Z="4.413698" />
+        <Vector3 X="-6350.853" Y="1776.137" Z="4.581256" />
+        <Vector3 X="-6348.547" Y="1761.625" Z="4.284223" />
+        <Vector3 X="-6339.461" Y="1749.964" Z="3.394267" />
+        <Vector3 X="-6329.055" Y="1748.138" Z="1.655514" />
+        <Vector3 X="-6323.91" Y="1733.775" Z="2.268566" />
+        <Vector3 X="-6318.618" Y="1719.903" Z="2.399753" />
+        <Vector3 X="-6309.582" Y="1705.976" Z="1.489876" />
+        <Vector3 X="-6300.976" Y="1693.819" Z="2.707237" />
+        <Vector3 X="-6292.93" Y="1681.324" Z="4.665023" />
+        <Vector3 X="-6286.468" Y="1669.885" Z="4.833465" />
+        <Vector3 X="-6278.177" Y="1658.843" Z="3.876229" />
+        <Vector3 X="-6274.816" Y="1643.464" Z="4.383679" />
+        <Vector3 X="-6268.799" Y="1628.925" Z="5.62321" />
+        <Vector3 X="-6264.707" Y="1619.256" Z="5.198816" />
+      </Vectors3>
+      <Npc />
+      <BlackListRadius>
+        <GrinderBlackListRadius>
+          <Position X="-6285.712" Y="1539.193" Z="3.663255" />
+          <Radius>30</Radius>
+          <Continent>Kalimdor</Continent>
+          <TypeArea>POLYAREA_BIGDANGER</TypeArea>
+          <Comment>Silithus &gt; The Crystal Vale</Comment>
+        </GrinderBlackListRadius>
+        <GrinderBlackListRadius>
+          <Position X="-6329.47" Y="1549.768" Z="1.732854" />
+          <Radius>30</Radius>
+          <Continent>Kalimdor</Continent>
+          <TypeArea>POLYAREA_BIGDANGER</TypeArea>
+          <Comment>Silithus &gt; Hive'Ashi</Comment>
+        </GrinderBlackListRadius>
+        <GrinderBlackListRadius>
+          <Position X="-6266.417" Y="1513.045" Z="9.732515" />
+          <Radius>30</Radius>
+          <Continent>Kalimdor</Continent>
+          <TypeArea>POLYAREA_BIGDANGER</TypeArea>
+          <Comment>Silithus &gt; The Crystal Vale</Comment>
+        </GrinderBlackListRadius>
+      </BlackListRadius>
+      <NotLoop>false</NotLoop>
+    </GrinderZone>
+  </GrinderZones>
+</GrinderProfile>
